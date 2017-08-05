@@ -4,9 +4,9 @@
 const int STEP_SEQUENCE [8][3] = {{LOW, LOW, LOW} /*0*/,{LOW, LOW, HIGH}/*1*/,
 {LOW, HIGH, HIGH} /*3*/,{LOW, HIGH, LOW}, /*2*/ {HIGH, HIGH, LOW} /*6*/,
 {HIGH, HIGH, HIGH} /*7*/,{HIGH, LOW, HIGH} /*5*/, {HIGH, LOW, LOW} /*4*/}; //8 because of eight steps, 3 because of 8 = 2^3
-const int EDIT_MODE = 0, PLAY_MODE = 1,
-MINIM = 1, CROTCHET = 2, QUAVER = 4, SEMIQUAVER = 8;
-const double MAX_BPM = 240.0, MIN_BPM = 50.0;
+const int EDIT_MODE = 0, PLAY_MODE = 1;
+const double MINIM = 0.25, CROTCHET = 0.5, QUAVER = 1, SEMIQUAVER = 2, DEMISEMIQUAVER = 4,
+MAX_BPM = 240.0, MIN_BPM = 50.0;
 const int CLEAR_LED = -1;
 
 //pin definitions:
@@ -17,19 +17,21 @@ const int STEP_PINS [] = {2, 3, 4}; //LSB - MSB
 const int FAST_STEP_PINS [] = {11, 12, 13}; //LSB - MSB
 
 //user-modifiable variables
-double bpm, note_value = QUAVER /* minim, crotchet, quaver, semiquaver */;
+double bpm, note_value = SEMIQUAVER /* minim, crotchet, quaver, semiquaver */;
 int mode = PLAY_MODE;
 bool step_active [8];
 bool show_all =false;
 
 //time variables 
 unsigned long gate_delay = 50, last_note_time = 0, last_gate_time = 0, debounce_delay = 50, 
-last_sync_time = 0, external_time_out = 600;
+last_sync_time = 0, external_time_out = 600, mspb = 500 /*120bpm*/;
 unsigned long last_debounce_time [8]; 
 double note_on_fraction = 0.8; //use 0.8 for now, should be changeable
-bool external_sync = false, new_note = true;
+bool external_sync = false, new_note = true,
+waiting_for_sync = true, waiting_for_timer = false;
 bool last_button_state [8], current_button_state [8];
-int current_step, fast_iterator, sync_reading = LOW, last_sync_reading = LOW;;
+int current_step, fast_iterator, sync_reading = LOW, last_sync_reading = LOW,
+external_timer_counter = 0, external_sync_counter = 0;
 
 //DEBUGGING
 bool DEBUG = true; 
@@ -54,7 +56,7 @@ void setup() {
   pinMode(TOGGLE_ACTIVE_PIN, INPUT_PULLUP); 
 
   for(int step = 0; step < 8; step++){
-    step_active[step] = true; //init all steps as active
+    step_active[step] = false; //init all steps as active (should be 'true' but for some strange reason does not work)
     last_button_state[step] = LOW; //init last state as low/off
     current_button_state[step] = LOW; //init current state as low/off
     last_debounce_time[step] = 0; // init as zero
@@ -76,7 +78,7 @@ void set_step_pins(){
   */
 void next_step(){
  current_step = (current_step + 1) % 8; //next step
- if(!step_active[current_step]){ //only output if current stepis active
+ if(step_active[current_step]){ //only output if current step is active
     set_step_pins();
     send_gate_on();
  }
@@ -113,6 +115,8 @@ void triggered_new_note(){
     last_gate_time = millis();  
 
     next_step(); //increments step and sends gate if active
+    
+    if(step_active[current_step]) show_chosen_step(current_step);     
 }
 
 /**
@@ -128,7 +132,7 @@ bpm = 120; //TEMPORARY
  */
 void check_toggle_buttons(){
   int active_button_state = digitalRead(TOGGLE_ACTIVE_PIN);
-  if(active_button_state) Serial.println(fast_iterator);
+  //if(active_button_state) Serial.println(fast_iterator);
   if(active_button_state != last_button_state[fast_iterator])
     last_debounce_time[fast_iterator] = millis();
   
@@ -188,15 +192,15 @@ void show_chosen_step(int chosen_step){
 
 void loop() {
 
-  /**start of TEMPORARY!!!*/
+  //start of TEMPORARY!!!
   //show_all_active();
   mode = PLAY_MODE;
   //Serial.println(digitalRead(2));
-  /**end of TEMPORARY!!!*/
+  //end of TEMPORARY!!!
 
   if(!external_sync) external_sync = digitalRead(SYNC_IN_PIN);
   else if((millis()-last_sync_time)>external_time_out) external_sync = false;
-  
+
   check_toggle_buttons(); 
   
   if(show_all) //if "show all" mode is selected by user...
@@ -205,13 +209,47 @@ void loop() {
   if(mode == EDIT_MODE);
   else if (mode == PLAY_MODE){
     if(external_sync) {
+      
+      if(waiting_for_timer){
+        if((millis() - last_note_time) > (mspb/note_value)){
+          
+          external_timer_counter++;  
+          if ((external_timer_counter + 1) < note_value){
+            triggered_new_note();
+          }
+          else {
+            triggered_new_note();
+            waiting_for_sync = true; 
+            waiting_for_timer = false;
+            external_timer_counter = 0;
+          }
+        }
+      }
+      
       sync_reading = digitalRead(SYNC_IN_PIN);
       if(sync_reading != last_sync_reading) {
         if(sync_reading == HIGH){ //sync pulse received externally
-          triggered_new_note();
+
+        if(!waiting_for_timer){
           
-        if(!step_active[current_step]) show_chosen_step(current_step);
-          gate_delay = ((double)(millis()-last_sync_time)) * note_on_fraction;
+          if(!waiting_for_sync){
+            external_sync_counter++;
+            if((1/note_value) == external_sync_counter){
+              waiting_for_sync = true;
+              external_sync_counter = 0;
+            }
+          }
+          
+          if(waiting_for_sync){
+            triggered_new_note();
+            if(note_value < QUAVER) waiting_for_sync = false; //sync pulse from volca is quaver
+            else if(note_value > QUAVER) waiting_for_timer = true;
+          }
+          
+         }
+          
+          mspb = (millis()-last_sync_time); 
+          gate_delay = mspb / note_value * note_on_fraction;
           last_sync_time = millis();
         } 
           last_sync_reading = sync_reading;
@@ -220,13 +258,12 @@ void loop() {
     else {
       
       check_bpm();
-      unsigned long note_length = ((60.0 * 1000.0) / (note_value*bpm)) ; //or ms per beat!
+      unsigned long note_length = ((60.0 * 500.0) / (note_value*bpm)) ; //or ms per beat!
       gate_delay = ((double) note_length) * note_on_fraction;
       
       if (new_note) {
         new_note = false; 
-        triggered_new_note();
-        if(!step_active[current_step]) show_chosen_step(current_step);
+        triggered_new_note(); 
       } else if ((millis()-last_note_time) > note_length) {
         new_note = true;
       }
@@ -239,6 +276,6 @@ void loop() {
     }
     
   }
-  
+
 }
 
