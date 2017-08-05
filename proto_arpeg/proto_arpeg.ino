@@ -132,7 +132,7 @@ bpm = 120; //TEMPORARY
  */
 void check_toggle_buttons(){
   int active_button_state = digitalRead(TOGGLE_ACTIVE_PIN);
-  //if(active_button_state) Serial.println(fast_iterator);
+
   if(active_button_state != last_button_state[fast_iterator])
     last_debounce_time[fast_iterator] = millis();
   
