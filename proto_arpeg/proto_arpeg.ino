@@ -5,6 +5,9 @@ const int STEP_SEQUENCE [8][3] = {{LOW, LOW, LOW} /*0*/,{LOW, LOW, HIGH}/*1*/,
 {LOW, HIGH, HIGH} /*3*/,{LOW, HIGH, LOW}, /*2*/ {HIGH, HIGH, LOW} /*6*/,
 {HIGH, HIGH, HIGH} /*7*/,{HIGH, LOW, HIGH} /*5*/, {HIGH, LOW, LOW} /*4*/}; //8 because of eight steps, 3 because of 8 = 2^3
 const int EDIT_MODE = 0, PLAY_MODE = 1;
+const int EDIT_MODE = 0, PLAY_MODE = 1,
+NORMAL_STEP = 0, RANDOM_STEP = 1, PING_PONG_STEP = 2, BACKWARDS_STEP = 3,
+FORWARD = 1, BACKWARD = -1;
 const double MINIM = 0.25, CROTCHET = 0.5, QUAVER = 1, SEMIQUAVER = 2, DEMISEMIQUAVER = 4,
 MAX_BPM = 240.0, MIN_BPM = 50.0;
 const int CLEAR_LED = -1;
@@ -12,19 +15,21 @@ const int CLEAR_LED = -1;
 //pin definitions:
 const int SYNC_IN_PIN = 5, TOGGLE_ACTIVE_PIN = 7, GATE_OUT_PIN = 6,
 SHIFT_IN_PIN = 8, SHCP_PIN = 9, STCP_PIN = 10, //digital
-BPM_PIN = A0, NOTE_VALUE_PIN = A1, NOTE_LENGTH_PIN = A2; //analog /*demux: bpm, note value (x4), note length, show all, edit mode*/
+BPM_PIN = A0, NOTE_LENGTH_PIN = A1, SETTINGS_BUTTONS_PIN = A2; //analog /*demux: bpm, note value (x4), note length, show all, edit mode*/
 const int STEP_PINS [] = {2, 3, 4}; //LSB - MSB
 const int FAST_STEP_PINS [] = {11, 12, 13}; //LSB - MSB
 
 //user-modifiable variables
 double bpm, note_value = SEMIQUAVER /* minim, crotchet, quaver, semiquaver */;
-int mode = PLAY_MODE;
+int mode = PLAY_MODE, stepping_mode = NORMAL_STEP,
+active_steps = 8, //amount of steps used
+step_incrementor = FORWARD; //depending on stepping mode 
 bool step_active [8];
-bool show_all =false;
+bool show_all = false;
 
 //time variables 
 unsigned long gate_delay = 50, last_note_time = 0, last_gate_time = 0, debounce_delay = 50, 
-last_sync_time = 0, external_time_out = 600, mspb = 500 /*120bpm*/;
+last_sync_time = 0, external_time_out = 600, mspb = 500 /*ms per beat = 120bpm*/;
 unsigned long last_debounce_time [8]; 
 double note_on_fraction = 0.8; //use 0.8 for now, should be changeable
 bool external_sync = false, new_note = true,
@@ -74,10 +79,34 @@ void set_step_pins(){
 }
 
 /**
+ * definition of stepping modes
+ */
+void set_stepping_mode(){
+  switch (stepping_mode) {
+    case RANDOM_STEP :  step_incrementor = 1 + random(active_steps-1);
+                        break;
+    case PING_PONG_STEP : if(current_step == 0) step_incrementor = FORWARD;
+                          else if (current_step == (active_steps-1)) step_incrementor = BACKWARD;
+                          if (step_incrementor != FORWARD && step_incrementor != BACKWARD) step_incrementor = FORWARD;
+                        break;
+    case NORMAL_STEP :  step_incrementor = FORWARD;
+                        break;
+    case BACKWARDS_STEP : step_incrementor = BACKWARD;
+                        break;
+  }
+}
+
+int wrap_mod (int number, int mod){
+   return (number%mod + mod)%mod;
+}
+
+/**
   * increases step with every sync pulse. outputs step pins and gate if step is active
   */
 void next_step(){
- current_step = (current_step + 1) % 8; //next step
+ set_stepping_mode(); 
+ 
+ current_step = wrap_mod(current_step + step_incrementor, active_steps); //next step
  if(step_active[current_step]){ //only output if current step is active
     set_step_pins();
     send_gate_on();
@@ -117,6 +146,13 @@ void triggered_new_note(){
     next_step(); //increments step and sends gate if active
     
     if(step_active[current_step]) show_chosen_step(current_step);     
+}
+
+/**
+ * toggles to next stepping mode
+ */
+void next_stepping_mode(){
+  stepping_mode = (stepping_mode + 1) % 4;
 }
 
 /**
@@ -195,6 +231,7 @@ void loop() {
   //start of TEMPORARY!!!
   //show_all_active();
   mode = PLAY_MODE;
+  //show_all = true;
   //Serial.println(digitalRead(2));
   //end of TEMPORARY!!!
 
@@ -249,7 +286,7 @@ void loop() {
          }
           
           mspb = (millis()-last_sync_time); 
-          gate_delay = mspb / note_value * note_on_fraction;
+          gate_delay = mspb / note_value * note_on_fraction * 2.0;
           last_sync_time = millis();
         } 
           last_sync_reading = sync_reading;
