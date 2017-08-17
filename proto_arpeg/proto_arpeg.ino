@@ -1,41 +1,40 @@
 /** EIGHT STEP SEQUENCER FOR THE WERKSTATT-01 */
 
 //constants
-const int STEP_SEQUENCE [8][3] = {{LOW, LOW, LOW} /*0*/,{LOW, LOW, HIGH}/*1*/,
+const short STEP_SEQUENCE [8][3] = {{LOW, LOW, LOW} /*0*/,{LOW, LOW, HIGH}/*1*/,
 {LOW, HIGH, HIGH} /*3*/,{LOW, HIGH, LOW}, /*2*/ {HIGH, HIGH, LOW} /*6*/,
 {HIGH, HIGH, HIGH} /*7*/,{HIGH, LOW, HIGH} /*5*/, {HIGH, LOW, LOW} /*4*/}; //8 because of eight steps, 3 because of 8 = 2^3
-const int EDIT_MODE = 0, PLAY_MODE = 1;
-const int EDIT_MODE = 0, PLAY_MODE = 1,
-NORMAL_STEP = 0, RANDOM_STEP = 1, PING_PONG_STEP = 2, BACKWARDS_STEP = 3,
+const short EDIT_MODE = 0, PLAY_MODE = 1,
+NORMAL_STEP = 0, RANDOM_STEP = 1, PING_PONG_STEP = 2, BACKWARDS_STEP = 3, FIBONACCI_STEP = 4,
 FORWARD = 1, BACKWARD = -1;
 const double MINIM = 0.25, CROTCHET = 0.5, QUAVER = 1, SEMIQUAVER = 2, DEMISEMIQUAVER = 4,
 MAX_BPM = 240.0, MIN_BPM = 50.0;
-const int CLEAR_LED = -1;
+const short CLEAR_LED = -1;
 
 //pin definitions:
-const int SYNC_IN_PIN = 5, TOGGLE_ACTIVE_PIN = 7, GATE_OUT_PIN = 6,
+const short SYNC_IN_PIN = 5, TOGGLE_ACTIVE_PIN = 7, GATE_OUT_PIN = 6,
 SHIFT_IN_PIN = 8, SHCP_PIN = 9, STCP_PIN = 10, //digital
 BPM_PIN = A0, NOTE_LENGTH_PIN = A1, SETTINGS_BUTTONS_PIN = A2; //analog /*demux: bpm, note value (x4), note length, show all, edit mode*/
-const int STEP_PINS [] = {2, 3, 4}; //LSB - MSB
-const int FAST_STEP_PINS [] = {11, 12, 13}; //LSB - MSB
+const short STEP_PINS [] = {2, 3, 4}; //LSB - MSB
+const short FAST_STEP_PINS [] = {11, 12, 13}; //LSB - MSB
 
 //user-modifiable variables
-double bpm, note_value = SEMIQUAVER /* minim, crotchet, quaver, semiquaver */;
-int mode = PLAY_MODE, stepping_mode = NORMAL_STEP,
+double bpm, note_value = DEMISEMIQUAVER /* minim, crotchet, quaver, semiquaver */;
+short mode = PLAY_MODE, stepping_mode = PING_PONG_STEP,
 active_steps = 8, //amount of steps used
 step_incrementor = FORWARD; //depending on stepping mode 
-bool step_active [8];
+bool step_muted [8];
 bool show_all = false;
 
 //time variables 
-unsigned long gate_delay = 50, last_note_time = 0, last_gate_time = 0, debounce_delay = 50, 
+unsigned long gate_delay = 50, last_note_time = 0, last_gate_time = 0, debounce_delay = 10, 
 last_sync_time = 0, external_time_out = 600, mspb = 500 /*ms per beat = 120bpm*/;
 unsigned long last_debounce_time [8]; 
 double note_on_fraction = 0.8; //use 0.8 for now, should be changeable
 bool external_sync = false, new_note = true,
 waiting_for_sync = true, waiting_for_timer = false;
 bool last_button_state [8], current_button_state [8];
-int current_step, fast_iterator, sync_reading = LOW, last_sync_reading = LOW,
+short current_step, fast_iterator, sync_reading = LOW, last_sync_reading = LOW,
 external_timer_counter = 0, external_sync_counter = 0;
 
 //DEBUGGING
@@ -61,7 +60,7 @@ void setup() {
   pinMode(TOGGLE_ACTIVE_PIN, INPUT_PULLUP); 
 
   for(int step = 0; step < 8; step++){
-    step_active[step] = false; //init all steps as active (should be 'true' but for some strange reason does not work)
+    step_muted[step] = false; //init all steps as active (should be 'true' but for some strange reason does not work)
     last_button_state[step] = LOW; //init last state as low/off
     current_button_state[step] = LOW; //init current state as low/off
     last_debounce_time[step] = 0; // init as zero
@@ -82,8 +81,9 @@ void set_step_pins(){
  * definition of stepping modes
  */
 void set_stepping_mode(){
+  
   switch (stepping_mode) {
-    case RANDOM_STEP :  step_incrementor = 1 + random(active_steps-1);
+    case RANDOM_STEP :  step_incrementor = 1 + random(active_steps);
                         break;
     case PING_PONG_STEP : if(current_step == 0) step_incrementor = FORWARD;
                           else if (current_step == (active_steps-1)) step_incrementor = BACKWARD;
@@ -93,8 +93,21 @@ void set_stepping_mode(){
                         break;
     case BACKWARDS_STEP : step_incrementor = BACKWARD;
                         break;
+   // case FIBONACCI_STEP : step_incrementor = current_step
   }
+
+ // if(stepping_mode != FIBONACCI_STEP && fibonacci_step) fibonacci_step = false;
+
 }
+/*
+bool fibonacci_step = false;
+short fibonacci_counter = 0;
+short fibonacci_steps(){
+  if(!fibonacci_step){
+    fibonacci_counter = 0;  
+  }
+  
+}*/
 
 int wrap_mod (int number, int mod){
    return (number%mod + mod)%mod;
@@ -107,7 +120,7 @@ void next_step(){
  set_stepping_mode(); 
  
  current_step = wrap_mod(current_step + step_incrementor, active_steps); //next step
- if(step_active[current_step]){ //only output if current step is active
+ if(step_muted[current_step]){ //only output if current step is active
     set_step_pins();
     send_gate_on();
  }
@@ -145,7 +158,7 @@ void triggered_new_note(){
 
     next_step(); //increments step and sends gate if active
     
-    if(step_active[current_step]) show_chosen_step(current_step);     
+    if(step_muted[current_step]) show_chosen_step(current_step);     
 }
 
 /**
@@ -177,7 +190,7 @@ void check_toggle_buttons(){
       current_button_state[fast_iterator] = active_button_state; 
       if(current_button_state[fast_iterator] == HIGH){
         if(mode == PLAY_MODE)
-          step_active[fast_iterator] = !step_active[fast_iterator];
+          step_muted[fast_iterator] = !step_muted[fast_iterator];
         else if(mode == EDIT_MODE){
           current_step = fast_iterator;
           show_chosen_step(current_step);
@@ -198,7 +211,7 @@ void check_toggle_buttons(){
 void show_all_active(){
  if(show_all){
    for (int step = 7; step>=0; step--){
-      digitalWrite(SHIFT_IN_PIN, !step_active[step]);
+      digitalWrite(SHIFT_IN_PIN, !step_muted[step]);
       digitalWrite(SHCP_PIN, HIGH);
       digitalWrite(SHCP_PIN, LOW);
     }
@@ -231,7 +244,7 @@ void loop() {
   //start of TEMPORARY!!!
   //show_all_active();
   mode = PLAY_MODE;
-  //show_all = true;
+  show_all = false;
   //Serial.println(digitalRead(2));
   //end of TEMPORARY!!!
 
