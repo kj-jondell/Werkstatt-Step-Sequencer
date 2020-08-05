@@ -1,20 +1,42 @@
 /** EIGHT STEP SEQUENCER FOR THE WERKSTATT-01 */
 
+#define EDIT_MODE 0
+#define PLAY_MODE 1
+
+#define NORMAL_STEP 0
+#define RANDOM_STEP 1
+#define PING_PONG_STEP 2
+#define BACKWARDS_STEP 3
+#define FIBONACCI_STEP 4
+
+#define FORWARD 1
+#define BACKWARD -1
+
+#define MINIM 0.25
+#define CROTCHET 0.5
+#define QUAVER 1
+#define SEMIQUAVER 2
+#define DEMISEMIQUAVER 4
+#define MAX_BPM 240.0
+#define MIN_BPM 50.0
+
+#define CLEAR_LED -1
+
+#define SYNC_IN_PIN 5
+#define TOGGLE_ACTIVE_PIN 7
+#define GATE_OUT_PIN 6
+#define SHIFT_IN_PIN 8
+#define SHCP_PIN 9
+#define STCP_PIN 10
+#define BPM_PIN A0
+#define NOTE_LENGTH_PIN A1
+#define SETTINGS_BUTTONS_PIN A2 //analog /*demux: bpm, note value (x4), note length, show all, edit mode*/
+
 //constants
 const short STEP_SEQUENCE [8][3] = {{LOW, LOW, LOW} /*0*/,{LOW, LOW, HIGH}/*1*/,
 {LOW, HIGH, HIGH} /*3*/,{LOW, HIGH, LOW}, /*2*/ {HIGH, HIGH, LOW} /*6*/,
 {HIGH, HIGH, HIGH} /*7*/,{HIGH, LOW, HIGH} /*5*/, {HIGH, LOW, LOW} /*4*/}; //8 because of eight steps, 3 because of 8 = 2^3
-const short EDIT_MODE = 0, PLAY_MODE = 1,
-NORMAL_STEP = 0, RANDOM_STEP = 1, PING_PONG_STEP = 2, BACKWARDS_STEP = 3, FIBONACCI_STEP = 4,
-FORWARD = 1, BACKWARD = -1;
-const double MINIM = 0.25, CROTCHET = 0.5, QUAVER = 1, SEMIQUAVER = 2, DEMISEMIQUAVER = 4,
-MAX_BPM = 240.0, MIN_BPM = 50.0;
-const short CLEAR_LED = -1;
 
-//pin definitions:
-const short SYNC_IN_PIN = 5, TOGGLE_ACTIVE_PIN = 7, GATE_OUT_PIN = 6,
-SHIFT_IN_PIN = 8, SHCP_PIN = 9, STCP_PIN = 10, //digital
-BPM_PIN = A0, NOTE_LENGTH_PIN = A1, SETTINGS_BUTTONS_PIN = A2; //analog /*demux: bpm, note value (x4), note length, show all, edit mode*/
 const short STEP_PINS [] = {2, 3, 4}; //LSB - MSB
 const short FAST_STEP_PINS [] = {11, 12, 13}; //LSB - MSB
 
