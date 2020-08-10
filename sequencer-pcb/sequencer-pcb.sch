@@ -137,12 +137,12 @@ $EndComp
 $Comp
 L Switch:SW_Push SW11
 U 1 1 5F2CD552
-P 1500 4750
-F 0 "SW11" H 1500 5035 50  0000 C CNN
-F 1 "SW_Push" H 1500 4944 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1500 4950 50  0001 C CNN
-F 3 "~" H 1500 4950 50  0001 C CNN
-	1    1500 4750
+P 1450 5650
+F 0 "SW11" H 1450 5935 50  0000 C CNN
+F 1 "SW_Push" H 1450 5844 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1450 5850 50  0001 C CNN
+F 3 "~" H 1450 5850 50  0001 C CNN
+	1    1450 5650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -248,7 +248,7 @@ L Device:R_POT RV8
 U 1 1 5F2957F9
 P 6000 1950
 F 0 "RV8" V 5885 1950 50  0000 C CNN
-F 1 "R_POT" V 5794 1950 50  0000 C CNN
+F 1 "100k" V 5794 1950 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 6000 1950 50  0001 C CNN
 F 3 "~" H 6000 1950 50  0001 C CNN
 	1    6000 1950
@@ -259,7 +259,7 @@ L Device:R_POT RV7
 U 1 1 5F295588
 P 5250 1950
 F 0 "RV7" V 5135 1950 50  0000 C CNN
-F 1 "R_POT" V 5044 1950 50  0000 C CNN
+F 1 "100k" V 5044 1950 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 5250 1950 50  0001 C CNN
 F 3 "~" H 5250 1950 50  0001 C CNN
 	1    5250 1950
@@ -270,7 +270,7 @@ L Device:R_POT RV6
 U 1 1 5F295310
 P 4450 1950
 F 0 "RV6" V 4335 1950 50  0000 C CNN
-F 1 "R_POT" V 4244 1950 50  0000 C CNN
+F 1 "100k" V 4244 1950 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 4450 1950 50  0001 C CNN
 F 3 "~" H 4450 1950 50  0001 C CNN
 	1    4450 1950
@@ -281,7 +281,7 @@ L Device:R_POT RV5
 U 1 1 5F294D49
 P 3650 1950
 F 0 "RV5" V 3535 1950 50  0000 C CNN
-F 1 "R_POT" V 3444 1950 50  0000 C CNN
+F 1 "100k" V 3444 1950 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 3650 1950 50  0001 C CNN
 F 3 "~" H 3650 1950 50  0001 C CNN
 	1    3650 1950
@@ -292,7 +292,7 @@ L Device:R_POT RV4
 U 1 1 5F294A5D
 P 6000 1300
 F 0 "RV4" V 5793 1300 50  0000 C CNN
-F 1 "R_POT" V 5884 1300 50  0000 C CNN
+F 1 "100k" V 5884 1300 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 6000 1300 50  0001 C CNN
 F 3 "~" H 6000 1300 50  0001 C CNN
 	1    6000 1300
@@ -303,7 +303,7 @@ L Device:R_POT RV3
 U 1 1 5F294708
 P 5250 1300
 F 0 "RV3" V 5043 1300 50  0000 C CNN
-F 1 "R_POT" V 5134 1300 50  0000 C CNN
+F 1 "100k" V 5134 1300 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 5250 1300 50  0001 C CNN
 F 3 "~" H 5250 1300 50  0001 C CNN
 	1    5250 1300
@@ -314,7 +314,7 @@ L Device:R_POT RV2
 U 1 1 5F294337
 P 4400 1300
 F 0 "RV2" V 4193 1300 50  0000 C CNN
-F 1 "R_POT" V 4284 1300 50  0000 C CNN
+F 1 "100k" V 4284 1300 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 4400 1300 50  0001 C CNN
 F 3 "~" H 4400 1300 50  0001 C CNN
 	1    4400 1300
@@ -325,7 +325,7 @@ L Device:R_POT RV1
 U 1 1 5F293DA2
 P 3650 1300
 F 0 "RV1" V 3443 1300 50  0000 C CNN
-F 1 "R_POT" V 3534 1300 50  0000 C CNN
+F 1 "100k" V 3534 1300 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 3650 1300 50  0001 C CNN
 F 3 "~" H 3650 1300 50  0001 C CNN
 	1    3650 1300
@@ -805,44 +805,44 @@ B8
 $Comp
 L power:GND #PWR03
 U 1 1 5F407ABC
-P 9450 2700
+P 8700 2700
 AR Path="/5F407ABC" Ref="#PWR03"  Part="1" 
 AR Path="/5F3DFCD9/5F407ABC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR03" H 9450 2450 50  0001 C CNN
-F 1 "GND" V 9455 2572 50  0000 R CNN
-F 2 "" H 9450 2700 50  0001 C CNN
-F 3 "" H 9450 2700 50  0001 C CNN
-	1    9450 2700
-	0    1    1    0   
+F 0 "#PWR03" H 8700 2450 50  0001 C CNN
+F 1 "GND" V 8705 2572 50  0000 R CNN
+F 2 "" H 8700 2700 50  0001 C CNN
+F 3 "" H 8700 2700 50  0001 C CNN
+	1    8700 2700
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9600 2700 9450 2700
+	8550 2700 8700 2700
 Wire Wire Line
-	9350 2600 9600 2600
+	8800 2800 8550 2800
 $Comp
 L power:+5V #PWR02
 U 1 1 5F407AC4
-P 9350 2600
+P 8800 2800
 AR Path="/5F407AC4" Ref="#PWR02"  Part="1" 
 AR Path="/5F3DFCD9/5F407AC4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR02" H 9350 2450 50  0001 C CNN
-F 1 "+5V" V 9365 2728 50  0000 L CNN
-F 2 "" H 9350 2600 50  0001 C CNN
-F 3 "" H 9350 2600 50  0001 C CNN
-	1    9350 2600
-	0    -1   -1   0   
+F 0 "#PWR02" H 8800 2650 50  0001 C CNN
+F 1 "+5V" V 8815 2928 50  0000 L CNN
+F 2 "" H 8800 2800 50  0001 C CNN
+F 3 "" H 8800 2800 50  0001 C CNN
+	1    8800 2800
+	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Counter_Clockwise J1
+L Connector_Generic:Conn_02x10_Counter_Clockwise J1
 U 1 1 5F407ACA
-P 8250 3000
+P 8250 2900
 AR Path="/5F407ACA" Ref="J1"  Part="1" 
 AR Path="/5F3DFCD9/5F407ACA" Ref="J?"  Part="1" 
-F 0 "J1" H 8300 3517 50  0000 C CNN
-F 1 "Conn_02x08_Counter_Clockwise" H 8300 3426 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 8250 3000 50  0001 C CNN
-F 3 "~" H 8250 3000 50  0001 C CNN
-	1    8250 3000
+F 0 "J1" H 8300 3417 50  0000 C CNN
+F 1 "Ribbon" H 8300 3326 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 8250 2900 50  0001 C CNN
+F 3 "~" H 8250 2900 50  0001 C CNN
+	1    8250 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -858,53 +858,53 @@ F 3 "~" H 9800 3000 50  0001 C CNN
 	1    9800 3000
 	1    0    0    -1  
 $EndComp
-Text GLabel 8050 2700 0    50   Input ~ 0
+Text GLabel 8050 2500 0    50   Input ~ 0
 R1
-Text GLabel 8050 2800 0    50   Input ~ 0
+Text GLabel 8050 2600 0    50   Input ~ 0
 R2
-Text GLabel 8050 2900 0    50   Input ~ 0
+Text GLabel 8050 2700 0    50   Input ~ 0
 R3
-Text GLabel 8050 3000 0    50   Input ~ 0
+Text GLabel 8050 2800 0    50   Input ~ 0
 R4
-Text GLabel 8050 3100 0    50   Input ~ 0
+Text GLabel 8050 2900 0    50   Input ~ 0
 R5
-Text GLabel 8050 3200 0    50   Input ~ 0
+Text GLabel 8050 3000 0    50   Input ~ 0
 R6
-Text GLabel 8050 3300 0    50   Input ~ 0
+Text GLabel 8050 3100 0    50   Input ~ 0
 R7
-Text GLabel 8050 3400 0    50   Input ~ 0
+Text GLabel 8050 3200 0    50   Input ~ 0
 R8
-Text GLabel 8550 2700 2    50   Input ~ 0
+Text GLabel 8050 3300 0    50   Input ~ 0
 L1
-Text GLabel 8550 2800 2    50   Input ~ 0
+Text GLabel 8050 3400 0    50   Input ~ 0
 L2
-Text GLabel 8550 2900 2    50   Input ~ 0
-L3
-Text GLabel 8550 3000 2    50   Input ~ 0
-L4
-Text GLabel 8550 3100 2    50   Input ~ 0
-L5
-Text GLabel 8550 3200 2    50   Input ~ 0
-L6
-Text GLabel 8550 3300 2    50   Input ~ 0
-L7
 Text GLabel 8550 3400 2    50   Input ~ 0
+L3
+Text GLabel 8550 3300 2    50   Input ~ 0
+L4
+Text GLabel 8550 3200 2    50   Input ~ 0
+L5
+Text GLabel 8550 3100 2    50   Input ~ 0
+L6
+Text GLabel 8550 3000 2    50   Input ~ 0
+L7
+Text GLabel 8550 2900 2    50   Input ~ 0
 L8
-Text GLabel 9600 2800 0    50   Input ~ 0
+Text GLabel 9600 2600 0    50   Input ~ 0
 B1
-Text GLabel 9600 2900 0    50   Input ~ 0
+Text GLabel 9600 2700 0    50   Input ~ 0
 B2
-Text GLabel 9600 3000 0    50   Input ~ 0
+Text GLabel 9600 2800 0    50   Input ~ 0
 B3
-Text GLabel 9600 3100 0    50   Input ~ 0
+Text GLabel 9600 2900 0    50   Input ~ 0
 B4
-Text GLabel 9600 3200 0    50   Input ~ 0
+Text GLabel 9600 3000 0    50   Input ~ 0
 B5
-Text GLabel 9600 3300 0    50   Input ~ 0
+Text GLabel 9600 3100 0    50   Input ~ 0
 B6
-Text GLabel 9600 3400 0    50   Input ~ 0
+Text GLabel 9600 3200 0    50   Input ~ 0
 B7
-Text GLabel 9600 3500 0    50   Input ~ 0
+Text GLabel 9600 3300 0    50   Input ~ 0
 B8
 Text Notes 1150 950  0    50   ~ 0
 Power led
@@ -945,7 +945,7 @@ Wire Notes Line
 Wire Notes Line
 	10550 2150 10550 3600
 Wire Notes Line
-	10550 3600 7600 3600
+	7600 3600 10550 3600
 Wire Notes Line
 	7600 3600 7600 2150
 Wire Wire Line
@@ -1003,39 +1003,39 @@ Text GLabel 2300 5100 3    50   Input ~ 0
 NC
 Text GLabel 2150 4950 0    50   Input ~ 0
 NC
-Text GLabel 1700 4750 2    50   Input ~ 0
+Text GLabel 1650 5650 2    50   Input ~ 0
 NC
-Text GLabel 1300 4750 0    50   Input ~ 0
+Text GLabel 1250 5650 0    50   Input ~ 0
 NC
 $Comp
 L Switch:SW_Push SW10
 U 1 1 5F506B13
-P 1500 5150
-F 0 "SW10" H 1500 5435 50  0000 C CNN
-F 1 "SW_Push" H 1500 5344 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1500 5350 50  0001 C CNN
-F 3 "~" H 1500 5350 50  0001 C CNN
-	1    1500 5150
+P 1450 6050
+F 0 "SW10" H 1450 6335 50  0000 C CNN
+F 1 "SW_Push" H 1450 6244 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1450 6250 50  0001 C CNN
+F 3 "~" H 1450 6250 50  0001 C CNN
+	1    1450 6050
 	1    0    0    -1  
 $EndComp
-Text GLabel 1700 5150 2    50   Input ~ 0
+Text GLabel 1650 6050 2    50   Input ~ 0
 NC
-Text GLabel 1300 5150 0    50   Input ~ 0
+Text GLabel 1250 6050 0    50   Input ~ 0
 NC
 $Comp
 L Switch:SW_Push SW9
 U 1 1 5F50971E
-P 1500 5500
-F 0 "SW9" H 1500 5785 50  0000 C CNN
-F 1 "SW_Push" H 1500 5694 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1500 5700 50  0001 C CNN
-F 3 "~" H 1500 5700 50  0001 C CNN
-	1    1500 5500
+P 1450 6400
+F 0 "SW9" H 1450 6685 50  0000 C CNN
+F 1 "SW_Push" H 1450 6594 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1450 6600 50  0001 C CNN
+F 3 "~" H 1450 6600 50  0001 C CNN
+	1    1450 6400
 	1    0    0    -1  
 $EndComp
-Text GLabel 1700 5500 2    50   Input ~ 0
+Text GLabel 1650 6400 2    50   Input ~ 0
 NC
-Text GLabel 1300 5500 0    50   Input ~ 0
+Text GLabel 1250 6400 0    50   Input ~ 0
 NC
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -1256,4 +1256,59 @@ Wire Wire Line
 	5850 2800 5850 2750
 Wire Wire Line
 	5850 3100 5850 3150
+$Comp
+L Switch:SW_Push SW13
+U 1 1 5F31C72E
+P 1450 5300
+F 0 "SW13" H 1450 5585 50  0000 C CNN
+F 1 "SW_Push" H 1450 5494 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1450 5500 50  0001 C CNN
+F 3 "~" H 1450 5500 50  0001 C CNN
+	1    1450 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 5300 2    50   Input ~ 0
+NC
+Text GLabel 1250 5300 0    50   Input ~ 0
+NC
+$Comp
+L Switch:SW_Push SW12
+U 1 1 5F32393D
+P 1450 4900
+F 0 "SW12" H 1450 5185 50  0000 C CNN
+F 1 "SW_Push" H 1450 5094 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1450 5100 50  0001 C CNN
+F 3 "~" H 1450 5100 50  0001 C CNN
+	1    1450 4900
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 4900 2    50   Input ~ 0
+NC
+Text GLabel 1250 4900 0    50   Input ~ 0
+NC
+$Comp
+L Device:R_POT RV11
+U 1 1 5F326108
+P 2650 5450
+F 0 "RV11" V 2443 5450 50  0000 C CNN
+F 1 "R_POT" V 2534 5450 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 2650 5450 50  0001 C CNN
+F 3 "~" H 2650 5450 50  0001 C CNN
+	1    2650 5450
+	0    1    1    0   
+$EndComp
+Text GLabel 2800 5450 2    50   Input ~ 0
+NC
+Text GLabel 2650 5600 3    50   Input ~ 0
+NC
+Text GLabel 2500 5450 0    50   Input ~ 0
+NC
+Text GLabel 9600 3400 0    50   Input ~ 0
+NC
+Text GLabel 9600 3500 0    50   Input ~ 0
+NC
+Text GLabel 8550 2600 2    50   Input ~ 0
+NC
+Text GLabel 8550 2500 2    50   Input ~ 0
+NC
 $EndSCHEMATC
