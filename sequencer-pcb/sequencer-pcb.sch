@@ -107,7 +107,7 @@ U 1 1 5F2B9A54
 P 4250 3350
 F 0 "SW1" H 4250 3635 50  0000 C CNN
 F 1 "SW_Push" H 4250 3544 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 4250 3550 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 4250 3550 50  0001 C CNN
 F 3 "~" H 4250 3550 50  0001 C CNN
 	1    4250 3350
 	0    -1   -1   0   
@@ -118,7 +118,7 @@ U 1 1 5F2BD498
 P 4850 3350
 F 0 "SW3" H 4850 3635 50  0000 C CNN
 F 1 "SW_Push" H 4850 3544 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 4850 3550 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 4850 3550 50  0001 C CNN
 F 3 "~" H 4850 3550 50  0001 C CNN
 	1    4850 3350
 	0    -1   -1   0   
@@ -129,7 +129,7 @@ U 1 1 5F2BF17B
 P 5850 3350
 F 0 "SW7" H 5850 3635 50  0000 C CNN
 F 1 "SW_Push" H 5850 3544 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5850 3550 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 5850 3550 50  0001 C CNN
 F 3 "~" H 5850 3550 50  0001 C CNN
 	1    5850 3350
 	0    -1   -1   0   
@@ -140,7 +140,7 @@ U 1 1 5F2CD552
 P 1450 5650
 F 0 "SW11" H 1450 5935 50  0000 C CNN
 F 1 "SW_Push" H 1450 5844 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1450 5850 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 1450 5850 50  0001 C CNN
 F 3 "~" H 1450 5850 50  0001 C CNN
 	1    1450 5650
 	1    0    0    -1  
@@ -151,7 +151,7 @@ U 1 1 5F29A153
 P 2300 4950
 F 0 "RV9" V 2093 4950 50  0000 C CNN
 F 1 "R_POT" V 2184 4950 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 2300 4950 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 2300 4950 50  0001 C CNN
 F 3 "~" H 2300 4950 50  0001 C CNN
 	1    2300 4950
 	0    1    1    0   
@@ -173,7 +173,7 @@ U 1 1 5F29EB17
 P 2950 4950
 F 0 "RV10" V 2743 4950 50  0000 C CNN
 F 1 "R_POT" V 2834 4950 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 2950 4950 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 2950 4950 50  0001 C CNN
 F 3 "~" H 2950 4950 50  0001 C CNN
 	1    2950 4950
 	0    1    1    0   
@@ -249,7 +249,7 @@ U 1 1 5F2957F9
 P 6000 1950
 F 0 "RV8" V 5885 1950 50  0000 C CNN
 F 1 "100k" V 5794 1950 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 6000 1950 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 6000 1950 50  0001 C CNN
 F 3 "~" H 6000 1950 50  0001 C CNN
 	1    6000 1950
 	-1   0    0    1   
@@ -260,7 +260,7 @@ U 1 1 5F295588
 P 5250 1950
 F 0 "RV7" V 5135 1950 50  0000 C CNN
 F 1 "100k" V 5044 1950 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 5250 1950 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 5250 1950 50  0001 C CNN
 F 3 "~" H 5250 1950 50  0001 C CNN
 	1    5250 1950
 	-1   0    0    1   
@@ -271,7 +271,7 @@ U 1 1 5F295310
 P 4450 1950
 F 0 "RV6" V 4335 1950 50  0000 C CNN
 F 1 "100k" V 4244 1950 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 4450 1950 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 4450 1950 50  0001 C CNN
 F 3 "~" H 4450 1950 50  0001 C CNN
 	1    4450 1950
 	-1   0    0    1   
@@ -282,7 +282,7 @@ U 1 1 5F294D49
 P 3650 1950
 F 0 "RV5" V 3535 1950 50  0000 C CNN
 F 1 "100k" V 3444 1950 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 3650 1950 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 3650 1950 50  0001 C CNN
 F 3 "~" H 3650 1950 50  0001 C CNN
 	1    3650 1950
 	-1   0    0    1   
@@ -293,7 +293,7 @@ U 1 1 5F294A5D
 P 6000 1300
 F 0 "RV4" V 5793 1300 50  0000 C CNN
 F 1 "100k" V 5884 1300 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 6000 1300 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 6000 1300 50  0001 C CNN
 F 3 "~" H 6000 1300 50  0001 C CNN
 	1    6000 1300
 	1    0    0    -1  
@@ -304,7 +304,7 @@ U 1 1 5F294708
 P 5250 1300
 F 0 "RV3" V 5043 1300 50  0000 C CNN
 F 1 "100k" V 5134 1300 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 5250 1300 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 5250 1300 50  0001 C CNN
 F 3 "~" H 5250 1300 50  0001 C CNN
 	1    5250 1300
 	1    0    0    -1  
@@ -315,7 +315,7 @@ U 1 1 5F294337
 P 4400 1300
 F 0 "RV2" V 4193 1300 50  0000 C CNN
 F 1 "100k" V 4284 1300 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 4400 1300 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 4400 1300 50  0001 C CNN
 F 3 "~" H 4400 1300 50  0001 C CNN
 	1    4400 1300
 	1    0    0    -1  
@@ -326,7 +326,7 @@ U 1 1 5F293DA2
 P 3650 1300
 F 0 "RV1" V 3443 1300 50  0000 C CNN
 F 1 "100k" V 3534 1300 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 3650 1300 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 3650 1300 50  0001 C CNN
 F 3 "~" H 3650 1300 50  0001 C CNN
 	1    3650 1300
 	1    0    0    -1  
@@ -593,7 +593,7 @@ U 1 1 5F2C248E
 P 5850 4050
 F 0 "SW8" H 5850 4335 50  0000 C CNN
 F 1 "SW_Push" H 5850 4244 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5850 4250 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 5850 4250 50  0001 C CNN
 F 3 "~" H 5850 4250 50  0001 C CNN
 	1    5850 4050
 	0    1    1    0   
@@ -604,7 +604,7 @@ U 1 1 5F2C2488
 P 5350 4050
 F 0 "SW6" H 5350 4335 50  0000 C CNN
 F 1 "SW_Push" H 5350 4244 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5350 4250 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 5350 4250 50  0001 C CNN
 F 3 "~" H 5350 4250 50  0001 C CNN
 	1    5350 4050
 	0    1    1    0   
@@ -615,7 +615,7 @@ U 1 1 5F2C2482
 P 4850 4050
 F 0 "SW4" H 4850 4335 50  0000 C CNN
 F 1 "SW_Push" H 4850 4244 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 4850 4250 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 4850 4250 50  0001 C CNN
 F 3 "~" H 4850 4250 50  0001 C CNN
 	1    4850 4050
 	0    1    1    0   
@@ -626,7 +626,7 @@ U 1 1 5F2C247C
 P 4250 4050
 F 0 "SW2" H 4250 4335 50  0000 C CNN
 F 1 "SW_Push" H 4250 4244 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 4250 4250 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 4250 4250 50  0001 C CNN
 F 3 "~" H 4250 4250 50  0001 C CNN
 	1    4250 4050
 	0    1    1    0   
@@ -1013,7 +1013,7 @@ U 1 1 5F506B13
 P 1450 6050
 F 0 "SW10" H 1450 6335 50  0000 C CNN
 F 1 "SW_Push" H 1450 6244 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1450 6250 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 1450 6250 50  0001 C CNN
 F 3 "~" H 1450 6250 50  0001 C CNN
 	1    1450 6050
 	1    0    0    -1  
@@ -1028,7 +1028,7 @@ U 1 1 5F50971E
 P 1450 6400
 F 0 "SW9" H 1450 6685 50  0000 C CNN
 F 1 "SW_Push" H 1450 6594 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1450 6600 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 1450 6600 50  0001 C CNN
 F 3 "~" H 1450 6600 50  0001 C CNN
 	1    1450 6400
 	1    0    0    -1  
@@ -1160,7 +1160,7 @@ U 1 1 5F2BED31
 P 5350 3350
 F 0 "SW5" H 5350 3635 50  0000 C CNN
 F 1 "SW_Push" H 5350 3544 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5350 3550 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 5350 3550 50  0001 C CNN
 F 3 "~" H 5350 3550 50  0001 C CNN
 	1    5350 3350
 	0    -1   -1   0   
@@ -1262,7 +1262,7 @@ U 1 1 5F31C72E
 P 1450 5300
 F 0 "SW13" H 1450 5585 50  0000 C CNN
 F 1 "SW_Push" H 1450 5494 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1450 5500 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 1450 5500 50  0001 C CNN
 F 3 "~" H 1450 5500 50  0001 C CNN
 	1    1450 5300
 	1    0    0    -1  
@@ -1277,7 +1277,7 @@ U 1 1 5F32393D
 P 1450 4900
 F 0 "SW12" H 1450 5185 50  0000 C CNN
 F 1 "SW_Push" H 1450 5094 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1450 5100 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 1450 5100 50  0001 C CNN
 F 3 "~" H 1450 5100 50  0001 C CNN
 	1    1450 4900
 	1    0    0    -1  
@@ -1292,7 +1292,7 @@ U 1 1 5F326108
 P 2650 5450
 F 0 "RV11" V 2443 5450 50  0000 C CNN
 F 1 "R_POT" V 2534 5450 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 2650 5450 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 2650 5450 50  0001 C CNN
 F 3 "~" H 2650 5450 50  0001 C CNN
 	1    2650 5450
 	0    1    1    0   
