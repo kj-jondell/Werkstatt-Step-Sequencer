@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -133,90 +133,90 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F400D9E
-P 2250 4100
+P 1150 5250
 AR Path="/5F400D9E" Ref="#PWR?"  Part="1" 
 AR Path="/5F3DFCD9/5F400D9E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2250 3850 50  0001 C CNN
-F 1 "GND" V 2255 3972 50  0000 R CNN
-F 2 "" H 2250 4100 50  0001 C CNN
-F 3 "" H 2250 4100 50  0001 C CNN
-	1    2250 4100
+F 0 "#PWR?" H 1150 5000 50  0001 C CNN
+F 1 "GND" V 1155 5122 50  0000 R CNN
+F 2 "" H 1150 5250 50  0001 C CNN
+F 3 "" H 1150 5250 50  0001 C CNN
+	1    1150 5250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2400 4100 2250 4100
+	1300 5250 1150 5250
 Wire Wire Line
-	2150 4000 2400 4000
+	1050 5150 1300 5150
 $Comp
 L power:+5V #PWR?
 U 1 1 5F400DA6
-P 2150 4000
+P 1050 5150
 AR Path="/5F400DA6" Ref="#PWR?"  Part="1" 
 AR Path="/5F3DFCD9/5F400DA6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2150 3850 50  0001 C CNN
-F 1 "+5V" V 2165 4128 50  0000 L CNN
-F 2 "" H 2150 4000 50  0001 C CNN
-F 3 "" H 2150 4000 50  0001 C CNN
-	1    2150 4000
+F 0 "#PWR?" H 1050 5000 50  0001 C CNN
+F 1 "+5V" V 1065 5278 50  0000 L CNN
+F 2 "" H 1050 5150 50  0001 C CNN
+F 3 "" H 1050 5150 50  0001 C CNN
+	1    1050 5150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x08_Counter_Clockwise J?
 U 1 1 5F400DAC
-P 2550 3050
+P 1450 4200
 AR Path="/5F400DAC" Ref="J?"  Part="1" 
 AR Path="/5F3DFCD9/5F400DAC" Ref="J?"  Part="1" 
-F 0 "J?" H 2600 3567 50  0000 C CNN
-F 1 "Conn_02x08_Counter_Clockwise" H 2600 3476 50  0000 C CNN
-F 2 "" H 2550 3050 50  0001 C CNN
-F 3 "~" H 2550 3050 50  0001 C CNN
-	1    2550 3050
+F 0 "J?" H 1500 4717 50  0000 C CNN
+F 1 "Conn_02x08_Counter_Clockwise" H 1500 4626 50  0000 C CNN
+F 2 "" H 1450 4200 50  0001 C CNN
+F 3 "~" H 1450 4200 50  0001 C CNN
+	1    1450 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x10_Counter_Clockwise J?
 U 1 1 5F400DB2
-P 2600 4400
+P 1500 5550
 AR Path="/5F400DB2" Ref="J?"  Part="1" 
 AR Path="/5F3DFCD9/5F400DB2" Ref="J?"  Part="1" 
-F 0 "J?" H 2650 5017 50  0000 C CNN
-F 1 "Conn_02x10_Counter_Clockwise" H 2650 4926 50  0000 C CNN
-F 2 "" H 2600 4400 50  0001 C CNN
-F 3 "~" H 2600 4400 50  0001 C CNN
-	1    2600 4400
+F 0 "J?" H 1550 6167 50  0000 C CNN
+F 1 "Conn_02x10_Counter_Clockwise" H 1550 6076 50  0000 C CNN
+F 2 "" H 1500 5550 50  0001 C CNN
+F 3 "~" H 1500 5550 50  0001 C CNN
+	1    1500 5550
 	1    0    0    -1  
 $EndComp
-Text GLabel 2350 2750 0    50   Input ~ 0
+Text GLabel 1250 3900 0    50   Input ~ 0
 R1
-Text GLabel 2350 2850 0    50   Input ~ 0
+Text GLabel 1250 4000 0    50   Input ~ 0
 R2
-Text GLabel 2350 2950 0    50   Input ~ 0
+Text GLabel 1250 4100 0    50   Input ~ 0
 R3
-Text GLabel 2350 3050 0    50   Input ~ 0
+Text GLabel 1250 4200 0    50   Input ~ 0
 R4
-Text GLabel 2350 3150 0    50   Input ~ 0
+Text GLabel 1250 4300 0    50   Input ~ 0
 R5
-Text GLabel 2350 3250 0    50   Input ~ 0
+Text GLabel 1250 4400 0    50   Input ~ 0
 R6
-Text GLabel 2350 3350 0    50   Input ~ 0
+Text GLabel 1250 4500 0    50   Input ~ 0
 R7
-Text GLabel 2350 3450 0    50   Input ~ 0
+Text GLabel 1250 4600 0    50   Input ~ 0
 R8
-Text GLabel 2850 2750 2    50   Input ~ 0
+Text GLabel 1750 3900 2    50   Input ~ 0
 L1
-Text GLabel 2850 2850 2    50   Input ~ 0
+Text GLabel 1750 4000 2    50   Input ~ 0
 L2
-Text GLabel 2850 2950 2    50   Input ~ 0
+Text GLabel 1750 4100 2    50   Input ~ 0
 L3
-Text GLabel 2850 3050 2    50   Input ~ 0
+Text GLabel 1750 4200 2    50   Input ~ 0
 L4
-Text GLabel 2850 3150 2    50   Input ~ 0
+Text GLabel 1750 4300 2    50   Input ~ 0
 L5
-Text GLabel 2850 3250 2    50   Input ~ 0
+Text GLabel 1750 4400 2    50   Input ~ 0
 L6
-Text GLabel 2850 3350 2    50   Input ~ 0
+Text GLabel 1750 4500 2    50   Input ~ 0
 L7
-Text GLabel 2850 3450 2    50   Input ~ 0
+Text GLabel 1750 4600 2    50   Input ~ 0
 L8
 $Comp
 L MCU_ST_STM32F4:STM32F401CCUx U?
@@ -257,21 +257,21 @@ F 3 "~" H 5400 3200 50  0001 C CNN
 	1    5400 3200
 	0    -1   -1   0   
 $EndComp
-Text GLabel 2400 4200 0    50   Input ~ 0
+Text GLabel 1300 5350 0    50   Input ~ 0
 B1
-Text GLabel 2400 4300 0    50   Input ~ 0
+Text GLabel 1300 5450 0    50   Input ~ 0
 B2
-Text GLabel 2400 4400 0    50   Input ~ 0
+Text GLabel 1300 5550 0    50   Input ~ 0
 B3
-Text GLabel 2400 4500 0    50   Input ~ 0
+Text GLabel 1300 5650 0    50   Input ~ 0
 B4
-Text GLabel 2400 4600 0    50   Input ~ 0
+Text GLabel 1300 5750 0    50   Input ~ 0
 B5
-Text GLabel 2400 4700 0    50   Input ~ 0
+Text GLabel 1300 5850 0    50   Input ~ 0
 B6
-Text GLabel 2400 4800 0    50   Input ~ 0
+Text GLabel 1300 5950 0    50   Input ~ 0
 B7
-Text GLabel 2400 4900 0    50   Input ~ 0
+Text GLabel 1300 6050 0    50   Input ~ 0
 B8
 $Comp
 L Device:CP C?
