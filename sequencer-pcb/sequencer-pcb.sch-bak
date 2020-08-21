@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -151,7 +151,7 @@ U 1 1 5F29A153
 P 2300 4950
 F 0 "RV9" V 2093 4950 50  0000 C CNN
 F 1 "R_POT" V 2184 4950 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 2300 4950 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 2300 4950 50  0001 C CNN
 F 3 "~" H 2300 4950 50  0001 C CNN
 	1    2300 4950
 	0    1    1    0   
@@ -173,7 +173,7 @@ U 1 1 5F29EB17
 P 2950 4950
 F 0 "RV10" V 2743 4950 50  0000 C CNN
 F 1 "R_POT" V 2834 4950 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 2950 4950 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 2950 4950 50  0001 C CNN
 F 3 "~" H 2950 4950 50  0001 C CNN
 	1    2950 4950
 	0    1    1    0   
@@ -249,7 +249,7 @@ U 1 1 5F2957F9
 P 6000 1950
 F 0 "RV8" V 5885 1950 50  0000 C CNN
 F 1 "100k" V 5794 1950 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 6000 1950 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 6000 1950 50  0001 C CNN
 F 3 "~" H 6000 1950 50  0001 C CNN
 	1    6000 1950
 	-1   0    0    1   
@@ -260,7 +260,7 @@ U 1 1 5F295588
 P 5250 1950
 F 0 "RV7" V 5135 1950 50  0000 C CNN
 F 1 "100k" V 5044 1950 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 5250 1950 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 5250 1950 50  0001 C CNN
 F 3 "~" H 5250 1950 50  0001 C CNN
 	1    5250 1950
 	-1   0    0    1   
@@ -271,7 +271,7 @@ U 1 1 5F295310
 P 4450 1950
 F 0 "RV6" V 4335 1950 50  0000 C CNN
 F 1 "100k" V 4244 1950 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 4450 1950 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 4450 1950 50  0001 C CNN
 F 3 "~" H 4450 1950 50  0001 C CNN
 	1    4450 1950
 	-1   0    0    1   
@@ -282,7 +282,7 @@ U 1 1 5F294D49
 P 3650 1950
 F 0 "RV5" V 3535 1950 50  0000 C CNN
 F 1 "100k" V 3444 1950 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 3650 1950 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 3650 1950 50  0001 C CNN
 F 3 "~" H 3650 1950 50  0001 C CNN
 	1    3650 1950
 	-1   0    0    1   
@@ -293,7 +293,7 @@ U 1 1 5F294A5D
 P 6000 1300
 F 0 "RV4" V 5793 1300 50  0000 C CNN
 F 1 "100k" V 5884 1300 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 6000 1300 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 6000 1300 50  0001 C CNN
 F 3 "~" H 6000 1300 50  0001 C CNN
 	1    6000 1300
 	1    0    0    -1  
@@ -304,7 +304,7 @@ U 1 1 5F294708
 P 5250 1300
 F 0 "RV3" V 5043 1300 50  0000 C CNN
 F 1 "100k" V 5134 1300 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 5250 1300 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 5250 1300 50  0001 C CNN
 F 3 "~" H 5250 1300 50  0001 C CNN
 	1    5250 1300
 	1    0    0    -1  
@@ -315,7 +315,7 @@ U 1 1 5F294337
 P 4400 1300
 F 0 "RV2" V 4193 1300 50  0000 C CNN
 F 1 "100k" V 4284 1300 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 4400 1300 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 4400 1300 50  0001 C CNN
 F 3 "~" H 4400 1300 50  0001 C CNN
 	1    4400 1300
 	1    0    0    -1  
@@ -326,7 +326,7 @@ U 1 1 5F293DA2
 P 3650 1300
 F 0 "RV1" V 3443 1300 50  0000 C CNN
 F 1 "100k" V 3534 1300 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 3650 1300 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 3650 1300 50  0001 C CNN
 F 3 "~" H 3650 1300 50  0001 C CNN
 	1    3650 1300
 	1    0    0    -1  
@@ -1119,17 +1119,6 @@ F 3 "~" H 8300 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 5F520F3B
-P 8750 4800
-F 0 "H4" H 8850 4849 50  0000 L CNN
-F 1 "MountingHole_GND" H 8850 4750 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 8750 4800 50  0001 C CNN
-F 3 "~" H 8750 4800 50  0001 C CNN
-	1    8750 4800
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR04
 U 1 1 5F5215AF
 P 8750 4900
@@ -1292,7 +1281,7 @@ U 1 1 5F326108
 P 2650 5450
 F 0 "RV11" V 2443 5450 50  0000 C CNN
 F 1 "R_POT" V 2534 5450 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 2650 5450 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 2650 5450 50  0001 C CNN
 F 3 "~" H 2650 5450 50  0001 C CNN
 	1    2650 5450
 	0    1    1    0   
@@ -1311,4 +1300,21 @@ Text GLabel 8550 2600 2    50   Input ~ 0
 NC
 Text GLabel 8550 2500 2    50   Input ~ 0
 NC
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5F520F3B
+P 8750 4800
+F 0 "H4" H 8850 4849 50  0000 L CNN
+F 1 "MountingHole_GND" H 8850 4750 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 8750 4800 50  0001 C CNN
+F 3 "~" H 8750 4800 50  0001 C CNN
+	1    8750 4800
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 4650 6100 500  300 
+U 5F450078
+F0 "CV_Expander" 50
+F1 "cv_expander.sch" 50
+$EndSheet
 $EndSCHEMATC

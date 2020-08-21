@@ -1119,17 +1119,6 @@ F 3 "~" H 8300 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 5F520F3B
-P 8750 4800
-F 0 "H4" H 8850 4849 50  0000 L CNN
-F 1 "MountingHole_GND" H 8850 4750 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 8750 4800 50  0001 C CNN
-F 3 "~" H 8750 4800 50  0001 C CNN
-	1    8750 4800
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR04
 U 1 1 5F5215AF
 P 8750 4900
@@ -1311,4 +1300,15 @@ Text GLabel 8550 2600 2    50   Input ~ 0
 NC
 Text GLabel 8550 2500 2    50   Input ~ 0
 NC
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5F520F3B
+P 8750 4800
+F 0 "H4" H 8850 4849 50  0000 L CNN
+F 1 "MountingHole_GND" H 8850 4750 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 8750 4800 50  0001 C CNN
+F 3 "~" H 8750 4800 50  0001 C CNN
+	1    8750 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
