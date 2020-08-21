@@ -3,7 +3,7 @@
 #define POT_INPUT_PIN PA0
 #define INPUT_RESOLUTION 12
 
-void blink(){
+void startBlink(){
   digitalWrite(PC13, LOW);
   delay(100);
   digitalWrite(PC13, HIGH);
@@ -14,7 +14,7 @@ void setup() {
   pinMode(POT_INPUT_PIN, INPUT_ANALOG);
   pinMode(PC13, OUTPUT);
 
-  blink();
+  startBlink();
 }
 
 void loop() {
