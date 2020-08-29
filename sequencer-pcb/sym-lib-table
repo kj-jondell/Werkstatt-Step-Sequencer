@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name cv_expander-rescue)(type Legacy)(uri ${KIPRJMOD}/cv_expander-rescue.lib)(options "")(descr ""))
+)

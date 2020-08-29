@@ -324,7 +324,7 @@ U 1 1 5F47C6D4
 P 5800 1500
 F 0 "TP2" H 5858 1618 50  0000 L CNN
 F 1 "TestPoint" H 5858 1527 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6000 1500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 6000 1500 50  0001 C CNN
 F 3 "~" H 6000 1500 50  0001 C CNN
 	1    5800 1500
 	1    0    0    -1  
