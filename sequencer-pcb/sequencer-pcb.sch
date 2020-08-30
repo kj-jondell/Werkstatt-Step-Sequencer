@@ -227,7 +227,7 @@ U 1 1 5F2957F9
 P 6000 1950
 F 0 "RV8" V 5885 1950 50  0000 C CNN
 F 1 "100k" V 5794 1950 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 6000 1950 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 6000 1950 50  0001 C CNN
 F 3 "~" H 6000 1950 50  0001 C CNN
 	1    6000 1950
 	-1   0    0    1   
@@ -238,7 +238,7 @@ U 1 1 5F295588
 P 5250 1950
 F 0 "RV7" V 5135 1950 50  0000 C CNN
 F 1 "100k" V 5044 1950 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 5250 1950 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 5250 1950 50  0001 C CNN
 F 3 "~" H 5250 1950 50  0001 C CNN
 	1    5250 1950
 	-1   0    0    1   
@@ -249,7 +249,7 @@ U 1 1 5F295310
 P 4450 1950
 F 0 "RV6" V 4335 1950 50  0000 C CNN
 F 1 "100k" V 4244 1950 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 4450 1950 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 4450 1950 50  0001 C CNN
 F 3 "~" H 4450 1950 50  0001 C CNN
 	1    4450 1950
 	-1   0    0    1   
@@ -260,7 +260,7 @@ U 1 1 5F294D49
 P 3650 1950
 F 0 "RV5" V 3535 1950 50  0000 C CNN
 F 1 "100k" V 3444 1950 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 3650 1950 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 3650 1950 50  0001 C CNN
 F 3 "~" H 3650 1950 50  0001 C CNN
 	1    3650 1950
 	-1   0    0    1   
@@ -271,7 +271,7 @@ U 1 1 5F294A5D
 P 6000 1300
 F 0 "RV4" V 5793 1300 50  0000 C CNN
 F 1 "100k" V 5884 1300 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 6000 1300 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 6000 1300 50  0001 C CNN
 F 3 "~" H 6000 1300 50  0001 C CNN
 	1    6000 1300
 	1    0    0    -1  
@@ -282,7 +282,7 @@ U 1 1 5F294708
 P 5250 1300
 F 0 "RV3" V 5043 1300 50  0000 C CNN
 F 1 "100k" V 5134 1300 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 5250 1300 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 5250 1300 50  0001 C CNN
 F 3 "~" H 5250 1300 50  0001 C CNN
 	1    5250 1300
 	1    0    0    -1  
@@ -293,7 +293,7 @@ U 1 1 5F294337
 P 4400 1300
 F 0 "RV2" V 4193 1300 50  0000 C CNN
 F 1 "100k" V 4284 1300 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 4400 1300 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 4400 1300 50  0001 C CNN
 F 3 "~" H 4400 1300 50  0001 C CNN
 	1    4400 1300
 	1    0    0    -1  
@@ -304,7 +304,7 @@ U 1 1 5F293DA2
 P 3650 1300
 F 0 "RV1" V 3443 1300 50  0000 C CNN
 F 1 "100k" V 3534 1300 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 3650 1300 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 3650 1300 50  0001 C CNN
 F 3 "~" H 3650 1300 50  0001 C CNN
 	1    3650 1300
 	1    0    0    -1  
@@ -330,7 +330,7 @@ U 1 1 5F497988
 P 1750 1150
 F 0 "R9" V 1543 1150 50  0000 C CNN
 F 1 "R" V 1634 1150 50  0000 C CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 1680 1150 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1680 1150 50  0001 C CNN
 F 3 "~" H 1750 1150 50  0001 C CNN
 	1    1750 1150
 	0    1    1    0   
@@ -365,7 +365,7 @@ U 1 1 5F57717F
 P 1150 2250
 F 0 "R1" H 1220 2296 50  0000 L CNN
 F 1 "R" H 1220 2205 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 1080 2250 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1080 2250 50  0001 C CNN
 F 3 "~" H 1150 2250 50  0001 C CNN
 	1    1150 2250
 	1    0    0    -1  
@@ -376,7 +376,7 @@ U 1 1 5F5778AD
 P 1700 2250
 F 0 "R5" H 1770 2296 50  0000 L CNN
 F 1 "R" H 1770 2205 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 1630 2250 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1630 2250 50  0001 C CNN
 F 3 "~" H 1700 2250 50  0001 C CNN
 	1    1700 2250
 	1    0    0    -1  
@@ -387,7 +387,7 @@ U 1 1 5F577EDA
 P 2200 2250
 F 0 "R10" H 2270 2296 50  0000 L CNN
 F 1 "R" H 2270 2205 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 2130 2250 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2130 2250 50  0001 C CNN
 F 3 "~" H 2200 2250 50  0001 C CNN
 	1    2200 2250
 	1    0    0    -1  
@@ -398,7 +398,7 @@ U 1 1 5F57855D
 P 2750 2250
 F 0 "R14" H 2820 2296 50  0000 L CNN
 F 1 "R" H 2820 2205 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 2680 2250 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2680 2250 50  0001 C CNN
 F 3 "~" H 2750 2250 50  0001 C CNN
 	1    2750 2250
 	1    0    0    -1  
@@ -409,7 +409,7 @@ U 1 1 5F578BDD
 P 1150 3550
 F 0 "R2" H 1220 3596 50  0000 L CNN
 F 1 "R" H 1220 3505 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 1080 3550 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1080 3550 50  0001 C CNN
 F 3 "~" H 1150 3550 50  0001 C CNN
 	1    1150 3550
 	1    0    0    -1  
@@ -420,7 +420,7 @@ U 1 1 5F57921F
 P 1700 3550
 F 0 "R6" H 1770 3596 50  0000 L CNN
 F 1 "R" H 1770 3505 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 1630 3550 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1630 3550 50  0001 C CNN
 F 3 "~" H 1700 3550 50  0001 C CNN
 	1    1700 3550
 	1    0    0    -1  
@@ -431,7 +431,7 @@ U 1 1 5F57999B
 P 2200 3550
 F 0 "R11" H 2270 3596 50  0000 L CNN
 F 1 "R" H 2270 3505 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 2130 3550 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2130 3550 50  0001 C CNN
 F 3 "~" H 2200 3550 50  0001 C CNN
 	1    2200 3550
 	1    0    0    -1  
@@ -442,7 +442,7 @@ U 1 1 5F57A00F
 P 2750 3550
 F 0 "R15" H 2820 3596 50  0000 L CNN
 F 1 "R" H 2820 3505 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 2680 3550 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2680 3550 50  0001 C CNN
 F 3 "~" H 2750 3550 50  0001 C CNN
 	1    2750 3550
 	1    0    0    -1  
@@ -589,7 +589,7 @@ U 1 1 5F686F29
 P 4250 2950
 F 0 "R3" H 4320 2996 50  0000 L CNN
 F 1 "R" H 4320 2905 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 4180 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4180 2950 50  0001 C CNN
 F 3 "~" H 4250 2950 50  0001 C CNN
 	1    4250 2950
 	1    0    0    -1  
@@ -600,7 +600,7 @@ U 1 1 5F686F2F
 P 4850 2950
 F 0 "R7" H 4920 2996 50  0000 L CNN
 F 1 "R" H 4920 2905 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 4780 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4780 2950 50  0001 C CNN
 F 3 "~" H 4850 2950 50  0001 C CNN
 	1    4850 2950
 	1    0    0    -1  
@@ -611,7 +611,7 @@ U 1 1 5F686F3B
 P 5850 2950
 F 0 "R16" H 5920 2996 50  0000 L CNN
 F 1 "R" H 5920 2905 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 5780 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5780 2950 50  0001 C CNN
 F 3 "~" H 5850 2950 50  0001 C CNN
 	1    5850 2950
 	1    0    0    -1  
@@ -686,7 +686,7 @@ U 1 1 5F6AF8B8
 P 4250 4450
 F 0 "R4" H 4320 4496 50  0000 L CNN
 F 1 "R" H 4320 4405 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 4180 4450 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4180 4450 50  0001 C CNN
 F 3 "~" H 4250 4450 50  0001 C CNN
 	1    4250 4450
 	-1   0    0    -1  
@@ -697,7 +697,7 @@ U 1 1 5F6AF8B2
 P 4850 4450
 F 0 "R8" H 4920 4496 50  0000 L CNN
 F 1 "R" H 4920 4405 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 4780 4450 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4780 4450 50  0001 C CNN
 F 3 "~" H 4850 4450 50  0001 C CNN
 	1    4850 4450
 	-1   0    0    -1  
@@ -708,7 +708,7 @@ U 1 1 5F6AF8AC
 P 5350 4450
 F 0 "R13" H 5420 4496 50  0000 L CNN
 F 1 "R" H 5420 4405 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 5280 4450 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5280 4450 50  0001 C CNN
 F 3 "~" H 5350 4450 50  0001 C CNN
 	1    5350 4450
 	-1   0    0    -1  
@@ -719,7 +719,7 @@ U 1 1 5F6AF8A6
 P 5850 4450
 F 0 "R17" H 5920 4496 50  0000 L CNN
 F 1 "R" H 5920 4405 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 5780 4450 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5780 4450 50  0001 C CNN
 F 3 "~" H 5850 4450 50  0001 C CNN
 	1    5850 4450
 	-1   0    0    -1  
@@ -1015,7 +1015,7 @@ U 1 1 5F686F35
 P 5350 2950
 F 0 "R12" H 5420 2996 50  0000 L CNN
 F 1 "R" H 5420 2905 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 5280 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5280 2950 50  0001 C CNN
 F 3 "~" H 5350 2950 50  0001 C CNN
 	1    5350 2950
 	1    0    0    -1  
@@ -1231,7 +1231,7 @@ U 1 1 5F326108
 P 2350 4900
 F 0 "SP3" H 2350 4650 50  0000 C CNN
 F 1 "R_POT" H 2350 4550 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 2350 4900 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 2350 4900 50  0001 C CNN
 F 3 "~" H 2350 4900 50  0001 C CNN
 	1    2350 4900
 	1    0    0    -1  
@@ -1242,7 +1242,7 @@ U 1 1 5F29EB17
 P 1950 4900
 F 0 "SP2" H 1900 4650 50  0000 C CNN
 F 1 "R_POT" H 1900 4550 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 1950 4900 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 1950 4900 50  0001 C CNN
 F 3 "~" H 1950 4900 50  0001 C CNN
 	1    1950 4900
 	1    0    0    -1  
@@ -1288,7 +1288,7 @@ U 1 1 5F29A153
 P 1550 4900
 F 0 "SP1" H 1500 4650 50  0000 C CNN
 F 1 "R_POT" H 1500 4550 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 1550 4900 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 1550 4900 50  0001 C CNN
 F 3 "~" H 1550 4900 50  0001 C CNN
 	1    1550 4900
 	1    0    0    -1  
@@ -1426,7 +1426,7 @@ U 1 1 5F693DB9
 P 1300 6100
 F 0 "R18" H 1370 6146 50  0000 L CNN
 F 1 "R" H 1370 6055 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 1230 6100 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1230 6100 50  0001 C CNN
 F 3 "~" H 1300 6100 50  0001 C CNN
 	1    1300 6100
 	-1   0    0    -1  
@@ -1437,7 +1437,7 @@ U 1 1 5F6970E0
 P 1800 6100
 F 0 "R20" H 1870 6146 50  0000 L CNN
 F 1 "R" H 1870 6055 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 1730 6100 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1730 6100 50  0001 C CNN
 F 3 "~" H 1800 6100 50  0001 C CNN
 	1    1800 6100
 	-1   0    0    -1  
@@ -1448,7 +1448,7 @@ U 1 1 5F6975CF
 P 2300 6100
 F 0 "R21" H 2370 6146 50  0000 L CNN
 F 1 "R" H 2370 6055 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 2230 6100 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2230 6100 50  0001 C CNN
 F 3 "~" H 2300 6100 50  0001 C CNN
 	1    2300 6100
 	-1   0    0    -1  
@@ -1459,7 +1459,7 @@ U 1 1 5F697B2D
 P 2750 6100
 F 0 "R22" H 2820 6146 50  0000 L CNN
 F 1 "R" H 2820 6055 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 2680 6100 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2680 6100 50  0001 C CNN
 F 3 "~" H 2750 6100 50  0001 C CNN
 	1    2750 6100
 	-1   0    0    -1  
@@ -1470,7 +1470,7 @@ U 1 1 5F6980E5
 P 1300 7550
 F 0 "R19" H 1370 7596 50  0000 L CNN
 F 1 "R" H 1370 7505 50  0000 L CNN
-F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 1230 7550 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1230 7550 50  0001 C CNN
 F 3 "~" H 1300 7550 50  0001 C CNN
 	1    1300 7550
 	-1   0    0    -1  
