@@ -151,7 +151,7 @@ U 1 1 5F29DEFC
 P 2250 1150
 F 0 "D9" H 2243 1366 50  0000 C CNN
 F 1 "LED" H 2243 1275 50  0000 C CNN
-F 2 "LED_THT:LED_D5.0mm" H 2250 1150 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2250 1150 50  0001 C CNN
 F 3 "~" H 2250 1150 50  0001 C CNN
 	1    2250 1150
 	-1   0    0    -1  
@@ -1587,7 +1587,7 @@ R2
 Text GLabel 10100 3400 2    50   Input ~ 0
 R1
 $Comp
-L Display_Character:OLED OLED_Display1
+L sequencer-pcb-rescue:OLED-Display_Character OLED_Display1
 U 1 1 5F4AFC7D
 P 5250 6250
 F 0 "OLED_Display1" H 5125 6575 50  0000 C CNN

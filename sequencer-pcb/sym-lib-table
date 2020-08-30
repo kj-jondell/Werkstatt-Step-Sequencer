@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name cv_expander-rescue)(type Legacy)(uri ${KIPRJMOD}/cv_expander-rescue.lib)(options "")(descr ""))
+  (lib (name sequencer-pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/sequencer-pcb-rescue.lib)(options "")(descr ""))
 )

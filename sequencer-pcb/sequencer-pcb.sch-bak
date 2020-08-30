@@ -1134,17 +1134,6 @@ F 3 "~" H 8750 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Display_Character:OLED OLED_Display
-U 1 1 5F4AFC7D
-P 5250 6250
-F 0 "OLED_Display" H 5125 6575 50  0000 C CNN
-F 1 "OLED" H 5125 6484 50  0000 C CNN
-F 2 "Display:OLED_SPI_128x32" H 5250 6250 50  0001 C CNN
-F 3 "" H 5250 6250 50  0001 C CNN
-	1    5250 6250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0110
 U 1 1 5F4C0242
 P 4800 6150
@@ -1597,4 +1586,15 @@ Text GLabel 10100 3500 2    50   Input ~ 0
 R2
 Text GLabel 10100 3400 2    50   Input ~ 0
 R1
+$Comp
+L Display_Character:OLED OLED_Display1
+U 1 1 5F4AFC7D
+P 5250 6250
+F 0 "OLED_Display1" H 5125 6575 50  0000 C CNN
+F 1 "OLED" H 5125 6484 50  0000 C CNN
+F 2 "Display:OLED_SPI_128x32" H 5250 6250 50  0001 C CNN
+F 3 "" H 5250 6250 50  0001 C CNN
+	1    5250 6250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
