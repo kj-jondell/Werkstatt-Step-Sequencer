@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/kj/Documents/projects/werkstatt-sequencer/sequencer-pcb/sequencer-pcb.sch</source>
-    <date>sön 30 aug 2020 22:15:53</date>
+    <date>mån 31 aug 2020 09:46:29</date>
     <tool>Eeschema 5.1.5+dfsg1-2build2</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -125,7 +125,7 @@
     </comp>
     <comp ref="RV8">
       <value>100k</value>
-      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
@@ -133,7 +133,7 @@
     </comp>
     <comp ref="RV7">
       <value>100k</value>
-      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
@@ -141,7 +141,7 @@
     </comp>
     <comp ref="RV6">
       <value>100k</value>
-      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
@@ -149,7 +149,7 @@
     </comp>
     <comp ref="RV5">
       <value>100k</value>
-      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
@@ -157,7 +157,7 @@
     </comp>
     <comp ref="RV4">
       <value>100k</value>
-      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
@@ -165,7 +165,7 @@
     </comp>
     <comp ref="RV3">
       <value>100k</value>
-      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
@@ -173,7 +173,7 @@
     </comp>
     <comp ref="RV2">
       <value>100k</value>
-      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
@@ -181,7 +181,7 @@
     </comp>
     <comp ref="RV1">
       <value>100k</value>
-      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
@@ -189,7 +189,7 @@
     </comp>
     <comp ref="R9">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -197,7 +197,7 @@
     </comp>
     <comp ref="R1">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -205,7 +205,7 @@
     </comp>
     <comp ref="R5">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -213,7 +213,7 @@
     </comp>
     <comp ref="R10">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -221,7 +221,7 @@
     </comp>
     <comp ref="R14">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -229,7 +229,7 @@
     </comp>
     <comp ref="R2">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -237,7 +237,7 @@
     </comp>
     <comp ref="R6">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -245,7 +245,7 @@
     </comp>
     <comp ref="R11">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -253,7 +253,7 @@
     </comp>
     <comp ref="R15">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -309,7 +309,7 @@
     </comp>
     <comp ref="R3">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -317,7 +317,7 @@
     </comp>
     <comp ref="R7">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -325,7 +325,7 @@
     </comp>
     <comp ref="R16">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -333,7 +333,7 @@
     </comp>
     <comp ref="R4">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -341,7 +341,7 @@
     </comp>
     <comp ref="R8">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -349,7 +349,7 @@
     </comp>
     <comp ref="R13">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -357,7 +357,7 @@
     </comp>
     <comp ref="R17">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -421,7 +421,7 @@
     </comp>
     <comp ref="R12">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -453,7 +453,7 @@
     </comp>
     <comp ref="SP3">
       <value>R_POT</value>
-      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
@@ -461,7 +461,7 @@
     </comp>
     <comp ref="SP2">
       <value>R_POT</value>
-      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
@@ -469,7 +469,7 @@
     </comp>
     <comp ref="SP1">
       <value>R_POT</value>
-      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
@@ -501,7 +501,7 @@
     </comp>
     <comp ref="R18">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -509,7 +509,7 @@
     </comp>
     <comp ref="R20">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -517,7 +517,7 @@
     </comp>
     <comp ref="R21">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -525,7 +525,7 @@
     </comp>
     <comp ref="R22">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -533,7 +533,7 @@
     </comp>
     <comp ref="R19">
       <value>R</value>
-      <footprint>Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
