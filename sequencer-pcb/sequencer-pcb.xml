@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/kj/Documents/projects/werkstatt-sequencer/sequencer-pcb/sequencer-pcb.sch</source>
-    <date>mån 31 aug 2020 09:46:29</date>
-    <tool>Eeschema 5.1.5+dfsg1-2build2</tool>
+    <source>/Users/kj/Documents/projects/werkstatt-sequencer/sequencer-pcb/sequencer-pcb.sch</source>
+    <date>2020 September 13, Sunday 13:13:22</date>
+    <tool>Eeschema (5.1.6-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -188,7 +188,7 @@
       <tstamp>5F293DA2</tstamp>
     </comp>
     <comp ref="R9">
-      <value>R</value>
+      <value>220</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -196,7 +196,7 @@
       <tstamp>5F497988</tstamp>
     </comp>
     <comp ref="R1">
-      <value>R</value>
+      <value>220</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -204,7 +204,7 @@
       <tstamp>5F57717F</tstamp>
     </comp>
     <comp ref="R5">
-      <value>R</value>
+      <value>220</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -212,7 +212,7 @@
       <tstamp>5F5778AD</tstamp>
     </comp>
     <comp ref="R10">
-      <value>R</value>
+      <value>220</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -220,7 +220,7 @@
       <tstamp>5F577EDA</tstamp>
     </comp>
     <comp ref="R14">
-      <value>R</value>
+      <value>220</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -228,7 +228,7 @@
       <tstamp>5F57855D</tstamp>
     </comp>
     <comp ref="R2">
-      <value>R</value>
+      <value>220</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -236,7 +236,7 @@
       <tstamp>5F578BDD</tstamp>
     </comp>
     <comp ref="R6">
-      <value>R</value>
+      <value>220</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -244,7 +244,7 @@
       <tstamp>5F57921F</tstamp>
     </comp>
     <comp ref="R11">
-      <value>R</value>
+      <value>220</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -252,7 +252,7 @@
       <tstamp>5F57999B</tstamp>
     </comp>
     <comp ref="R15">
-      <value>R</value>
+      <value>220</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -308,7 +308,7 @@
       <tstamp>5F2C247C</tstamp>
     </comp>
     <comp ref="R3">
-      <value>R</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -316,7 +316,7 @@
       <tstamp>5F686F29</tstamp>
     </comp>
     <comp ref="R7">
-      <value>R</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -324,7 +324,7 @@
       <tstamp>5F686F2F</tstamp>
     </comp>
     <comp ref="R16">
-      <value>R</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -332,7 +332,7 @@
       <tstamp>5F686F3B</tstamp>
     </comp>
     <comp ref="R4">
-      <value>R</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -340,7 +340,7 @@
       <tstamp>5F6AF8B8</tstamp>
     </comp>
     <comp ref="R8">
-      <value>R</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -348,7 +348,7 @@
       <tstamp>5F6AF8B2</tstamp>
     </comp>
     <comp ref="R13">
-      <value>R</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -356,7 +356,7 @@
       <tstamp>5F6AF8AC</tstamp>
     </comp>
     <comp ref="R17">
-      <value>R</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -420,7 +420,7 @@
       <tstamp>5F2BED31</tstamp>
     </comp>
     <comp ref="R12">
-      <value>R</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -452,7 +452,7 @@
       <tstamp>5F520F3B</tstamp>
     </comp>
     <comp ref="SP3">
-      <value>R_POT</value>
+      <value>R_POT_SETTING</value>
       <footprint>Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
@@ -460,7 +460,7 @@
       <tstamp>5F326108</tstamp>
     </comp>
     <comp ref="SP2">
-      <value>R_POT</value>
+      <value>R_POT_SETTING</value>
       <footprint>Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
@@ -468,7 +468,7 @@
       <tstamp>5F29EB17</tstamp>
     </comp>
     <comp ref="SP1">
-      <value>R_POT</value>
+      <value>R_POT_SETTING</value>
       <footprint>Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
@@ -500,7 +500,7 @@
       <tstamp>5F50971E</tstamp>
     </comp>
     <comp ref="R18">
-      <value>R</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -508,7 +508,7 @@
       <tstamp>5F693DB9</tstamp>
     </comp>
     <comp ref="R20">
-      <value>R</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -516,7 +516,7 @@
       <tstamp>5F6970E0</tstamp>
     </comp>
     <comp ref="R21">
-      <value>R</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -524,7 +524,7 @@
       <tstamp>5F6975CF</tstamp>
     </comp>
     <comp ref="R22">
-      <value>R</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -532,7 +532,7 @@
       <tstamp>5F697B2D</tstamp>
     </comp>
     <comp ref="R19">
-      <value>R</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -715,297 +715,297 @@
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>/usr/share/kicad/library/Connector.lib</uri>
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
     </library>
     <library logical="Connector_Generic">
-      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+      <uri>/Library/Application Support/kicad/library/Connector_Generic.lib</uri>
     </library>
     <library logical="Device">
-      <uri>/usr/share/kicad/library/Device.lib</uri>
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
     </library>
     <library logical="Mechanical">
-      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+      <uri>/Library/Application Support/kicad/library/Mechanical.lib</uri>
     </library>
     <library logical="Switch">
-      <uri>/usr/share/kicad/library/Switch.lib</uri>
+      <uri>/Library/Application Support/kicad/library/Switch.lib</uri>
     </library>
     <library logical="sequencer-pcb-rescue">
-      <uri>/home/kj/Documents/projects/werkstatt-sequencer/sequencer-pcb/sequencer-pcb-rescue.lib</uri>
+      <uri>/Users/kj/Documents/projects/werkstatt-sequencer/sequencer-pcb/sequencer-pcb-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="+3V3">
-      <node ref="SSW4" pin="1"/>
-      <node ref="TP1" pin="1"/>
-      <node ref="SP2" pin="1"/>
-      <node ref="SP1" pin="1"/>
-      <node ref="OLED_Display1" pin="2"/>
-      <node ref="SW5" pin="1"/>
-      <node ref="SSW2" pin="1"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="SW6" pin="1"/>
-      <node ref="SW4" pin="1"/>
-      <node ref="SW2" pin="1"/>
-      <node ref="J3" pin="1"/>
-      <node ref="SW8" pin="1"/>
-      <node ref="J1" pin="13"/>
-      <node ref="SW3" pin="1"/>
-      <node ref="SW7" pin="1"/>
-      <node ref="SSW3" pin="1"/>
-      <node ref="SP3" pin="1"/>
-      <node ref="SSW1" pin="1"/>
-      <node ref="SSW5" pin="2"/>
+    <net code="1" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="2"/>
     </net>
-    <net code="2" name="GND">
-      <node ref="TP2" pin="1"/>
-      <node ref="RV3" pin="3"/>
-      <node ref="SP1" pin="3"/>
-      <node ref="SP2" pin="3"/>
-      <node ref="R20" pin="1"/>
-      <node ref="R18" pin="1"/>
-      <node ref="J3" pin="2"/>
-      <node ref="D9" pin="1"/>
-      <node ref="D3" pin="1"/>
-      <node ref="D8" pin="1"/>
-      <node ref="D5" pin="1"/>
-      <node ref="D6" pin="1"/>
-      <node ref="D7" pin="1"/>
-      <node ref="D4" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="RV5" pin="3"/>
-      <node ref="R8" pin="2"/>
-      <node ref="RV1" pin="3"/>
-      <node ref="R13" pin="2"/>
-      <node ref="RV2" pin="3"/>
-      <node ref="R17" pin="2"/>
-      <node ref="RV4" pin="3"/>
-      <node ref="R4" pin="2"/>
-      <node ref="RV6" pin="3"/>
-      <node ref="RV7" pin="3"/>
-      <node ref="RV8" pin="3"/>
-      <node ref="H4" pin="1"/>
-      <node ref="SP3" pin="3"/>
-      <node ref="R12" pin="1"/>
-      <node ref="R16" pin="1"/>
-      <node ref="R21" pin="1"/>
-      <node ref="R3" pin="1"/>
-      <node ref="R7" pin="1"/>
-      <node ref="D1" pin="1"/>
-      <node ref="OLED_Display1" pin="1"/>
-      <node ref="R19" pin="2"/>
-      <node ref="J2" pin="2"/>
-      <node ref="R22" pin="1"/>
+    <net code="2" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R5" pin="2"/>
     </net>
-    <net code="3" name="L2">
-      <node ref="J2" pin="9"/>
-      <node ref="R2" pin="2"/>
+    <net code="3" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="R10" pin="2"/>
     </net>
-    <net code="4" name="CS">
-      <node ref="J2" pin="8"/>
-      <node ref="OLED_Display1" pin="7"/>
-    </net>
-    <net code="5" name="DC">
-      <node ref="J2" pin="7"/>
-      <node ref="OLED_Display1" pin="6"/>
-    </net>
-    <net code="6" name="RES">
-      <node ref="J2" pin="6"/>
-      <node ref="OLED_Display1" pin="5"/>
-    </net>
-    <net code="7" name="MOSI">
-      <node ref="OLED_Display1" pin="4"/>
-      <node ref="J2" pin="5"/>
-    </net>
-    <net code="8" name="CLK">
-      <node ref="J2" pin="3"/>
-      <node ref="OLED_Display1" pin="3"/>
-    </net>
-    <net code="9" name="B6">
-      <node ref="R13" pin="1"/>
-      <node ref="J2" pin="19"/>
-      <node ref="SW6" pin="2"/>
-    </net>
-    <net code="10" name="R5">
-      <node ref="J2" pin="18"/>
-      <node ref="RV5" pin="2"/>
-    </net>
-    <net code="11" name="R6">
-      <node ref="J2" pin="17"/>
-      <node ref="RV6" pin="2"/>
-    </net>
-    <net code="12" name="L5">
-      <node ref="J2" pin="16"/>
-      <node ref="R10" pin="1"/>
-    </net>
-    <net code="13" name="L6">
-      <node ref="R11" pin="2"/>
-      <node ref="J2" pin="15"/>
-    </net>
-    <net code="14" name="B1">
-      <node ref="R3" pin="2"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="J2" pin="14"/>
-    </net>
-    <net code="15" name="B5">
-      <node ref="SW5" pin="2"/>
-      <node ref="R12" pin="2"/>
-      <node ref="J2" pin="20"/>
-    </net>
-    <net code="16" name="+5V">
-      <node ref="RV7" pin="1"/>
-      <node ref="RV8" pin="1"/>
-      <node ref="J3" pin="3"/>
-      <node ref="TP3" pin="1"/>
-      <node ref="RV5" pin="1"/>
-      <node ref="RV2" pin="1"/>
-      <node ref="RV1" pin="1"/>
-      <node ref="J2" pin="4"/>
-      <node ref="R9" pin="2"/>
-      <node ref="RV3" pin="1"/>
-      <node ref="RV4" pin="1"/>
-      <node ref="RV6" pin="1"/>
-    </net>
-    <net code="17" name="B2">
-      <node ref="SW2" pin="2"/>
-      <node ref="R4" pin="1"/>
-      <node ref="J2" pin="13"/>
-    </net>
-    <net code="18" name="Net-(D9-Pad2)">
-      <node ref="R9" pin="1"/>
-      <node ref="D9" pin="2"/>
-    </net>
-    <net code="19" name="Net-(D8-Pad2)">
-      <node ref="D8" pin="2"/>
-      <node ref="R15" pin="1"/>
-    </net>
-    <net code="20" name="Net-(D6-Pad2)">
-      <node ref="R11" pin="1"/>
-      <node ref="D6" pin="2"/>
-    </net>
-    <net code="21" name="Net-(D4-Pad2)">
-      <node ref="R6" pin="1"/>
-      <node ref="D4" pin="2"/>
-    </net>
-    <net code="22" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="23" name="Net-(D7-Pad2)">
+    <net code="4" name="Net-(D7-Pad2)">
       <node ref="D7" pin="2"/>
       <node ref="R14" pin="2"/>
     </net>
-    <net code="24" name="Net-(D5-Pad2)">
-      <node ref="R10" pin="2"/>
-      <node ref="D5" pin="2"/>
+    <net code="5" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R2" pin="1"/>
     </net>
-    <net code="25" name="Net-(D3-Pad2)">
-      <node ref="R5" pin="2"/>
-      <node ref="D3" pin="2"/>
+    <net code="6" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R6" pin="1"/>
     </net>
-    <net code="26" name="Net-(D1-Pad2)">
-      <node ref="R1" pin="2"/>
-      <node ref="D1" pin="2"/>
+    <net code="7" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="R11" pin="1"/>
     </net>
-    <net code="27" name="R7">
+    <net code="8" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="9" name="Net-(D9-Pad2)">
+      <node ref="R9" pin="1"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="10" name="+5V">
+      <node ref="J3" pin="3"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="R9" pin="2"/>
+      <node ref="RV8" pin="1"/>
+      <node ref="RV7" pin="1"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="RV2" pin="1"/>
+      <node ref="RV6" pin="1"/>
+      <node ref="RV3" pin="1"/>
+      <node ref="RV4" pin="1"/>
+      <node ref="RV5" pin="1"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="RV5" pin="3"/>
+      <node ref="RV6" pin="3"/>
+      <node ref="RV4" pin="3"/>
+      <node ref="RV3" pin="3"/>
+      <node ref="RV7" pin="3"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="RV8" pin="3"/>
+      <node ref="R12" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="OLED_Display1" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="SP1" pin="3"/>
+      <node ref="H4" pin="1"/>
+      <node ref="SP3" pin="3"/>
+      <node ref="SP2" pin="3"/>
+      <node ref="D7" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="12" name="R8">
+      <node ref="J1" pin="17"/>
+      <node ref="RV8" pin="2"/>
+    </net>
+    <net code="13" name="R7">
       <node ref="J1" pin="18"/>
       <node ref="RV7" pin="2"/>
     </net>
-    <net code="28" name="R1">
-      <node ref="RV1" pin="2"/>
-      <node ref="J2" pin="12"/>
+    <net code="14" name="R6">
+      <node ref="J2" pin="17"/>
+      <node ref="RV6" pin="2"/>
     </net>
-    <net code="29" name="R2">
-      <node ref="RV2" pin="2"/>
-      <node ref="J2" pin="11"/>
+    <net code="15" name="R5">
+      <node ref="RV5" pin="2"/>
+      <node ref="J2" pin="18"/>
     </net>
-    <net code="30" name="L1">
-      <node ref="R1" pin="1"/>
-      <node ref="J2" pin="10"/>
-    </net>
-    <net code="31" name="SP3">
-      <node ref="J2" pin="1"/>
-      <node ref="SP3" pin="2"/>
-    </net>
-    <net code="32" name="SSW4">
-      <node ref="R22" pin="2"/>
-      <node ref="J1" pin="9"/>
-      <node ref="SSW2" pin="2"/>
-    </net>
-    <net code="33" name="B3">
-      <node ref="SW3" pin="2"/>
-      <node ref="J1" pin="8"/>
-      <node ref="R7" pin="2"/>
-    </net>
-    <net code="34" name="B4">
-      <node ref="SW4" pin="2"/>
-      <node ref="J1" pin="7"/>
-      <node ref="R8" pin="1"/>
-    </net>
-    <net code="35" name="R3">
-      <node ref="J1" pin="6"/>
-      <node ref="RV3" pin="2"/>
-    </net>
-    <net code="36" name="R4">
+    <net code="16" name="R4">
       <node ref="J1" pin="5"/>
       <node ref="RV4" pin="2"/>
     </net>
-    <net code="37" name="L3">
+    <net code="17" name="R3">
+      <node ref="RV3" pin="2"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="18" name="R2">
+      <node ref="J2" pin="11"/>
+      <node ref="RV2" pin="2"/>
+    </net>
+    <net code="19" name="R1">
+      <node ref="J2" pin="12"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="20" name="L1">
+      <node ref="J2" pin="10"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="21" name="L3">
       <node ref="J1" pin="4"/>
       <node ref="R5" pin="1"/>
     </net>
-    <net code="38" name="L4">
-      <node ref="R6" pin="2"/>
-      <node ref="J1" pin="3"/>
+    <net code="22" name="L5">
+      <node ref="J2" pin="16"/>
+      <node ref="R10" pin="1"/>
     </net>
-    <net code="39" name="B7">
-      <node ref="SW7" pin="2"/>
+    <net code="23" name="L7">
+      <node ref="J1" pin="16"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="24" name="L2">
+      <node ref="J2" pin="9"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="25" name="L4">
+      <node ref="J1" pin="3"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="26" name="L6">
+      <node ref="R11" pin="2"/>
+      <node ref="J2" pin="15"/>
+    </net>
+    <net code="27" name="L8">
+      <node ref="R15" pin="2"/>
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="28" name="B1">
+      <node ref="R3" pin="2"/>
+      <node ref="J2" pin="14"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="29" name="B3">
+      <node ref="R7" pin="2"/>
+      <node ref="J1" pin="8"/>
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="30" name="B7">
       <node ref="R16" pin="2"/>
+      <node ref="SW7" pin="2"/>
       <node ref="J1" pin="20"/>
     </net>
-    <net code="40" name="SP1">
-      <node ref="J1" pin="2"/>
-      <node ref="SP1" pin="2"/>
+    <net code="31" name="B2">
+      <node ref="J2" pin="13"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="R4" pin="1"/>
     </net>
-    <net code="41" name="B8">
+    <net code="32" name="B4">
+      <node ref="SW4" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="33" name="B6">
+      <node ref="SW6" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="J2" pin="19"/>
+    </net>
+    <net code="34" name="B8">
       <node ref="SW8" pin="2"/>
       <node ref="R17" pin="1"/>
       <node ref="J1" pin="19"/>
     </net>
-    <net code="42" name="R8">
-      <node ref="RV8" pin="2"/>
-      <node ref="J1" pin="17"/>
+    <net code="35" name="B5">
+      <node ref="R12" pin="2"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="J2" pin="20"/>
     </net>
-    <net code="43" name="L7">
-      <node ref="R14" pin="1"/>
-      <node ref="J1" pin="16"/>
+    <net code="36" name="+3V3">
+      <node ref="SSW1" pin="1"/>
+      <node ref="SSW5" pin="2"/>
+      <node ref="OLED_Display1" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="SW7" pin="1"/>
+      <node ref="SSW3" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="SW8" pin="1"/>
+      <node ref="SP3" pin="1"/>
+      <node ref="SW6" pin="1"/>
+      <node ref="SP2" pin="1"/>
+      <node ref="SSW2" pin="1"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="SP1" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="J1" pin="13"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="SSW4" pin="1"/>
+      <node ref="SW5" pin="1"/>
     </net>
-    <net code="44" name="L8">
-      <node ref="J1" pin="15"/>
-      <node ref="R15" pin="2"/>
+    <net code="37" name="SP3">
+      <node ref="J2" pin="1"/>
+      <node ref="SP3" pin="2"/>
     </net>
-    <net code="45" name="SSW2">
+    <net code="38" name="SP2">
+      <node ref="J1" pin="1"/>
+      <node ref="SP2" pin="2"/>
+    </net>
+    <net code="39" name="SP1">
+      <node ref="SP1" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="40" name="SSW5">
+      <node ref="SSW4" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="41" name="SSW1">
+      <node ref="R18" pin="2"/>
+      <node ref="SSW1" pin="2"/>
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="42" name="SSW2">
       <node ref="J1" pin="14"/>
-      <node ref="R20" pin="2"/>
       <node ref="SSW5" pin="1"/>
+      <node ref="R20" pin="2"/>
     </net>
-    <net code="46" name="SSW3">
+    <net code="43" name="SSW3">
+      <node ref="J1" pin="12"/>
       <node ref="SSW3" pin="2"/>
       <node ref="R21" pin="2"/>
-      <node ref="J1" pin="12"/>
     </net>
-    <net code="47" name="SSW5">
-      <node ref="SSW4" pin="2"/>
-      <node ref="J1" pin="11"/>
-      <node ref="R19" pin="1"/>
+    <net code="44" name="SSW4">
+      <node ref="J1" pin="9"/>
+      <node ref="SSW2" pin="2"/>
+      <node ref="R22" pin="2"/>
     </net>
-    <net code="48" name="SSW1">
-      <node ref="R18" pin="2"/>
-      <node ref="J1" pin="10"/>
-      <node ref="SSW1" pin="2"/>
+    <net code="45" name="CLK">
+      <node ref="J2" pin="3"/>
+      <node ref="OLED_Display1" pin="3"/>
     </net>
-    <net code="49" name="SP2">
-      <node ref="SP2" pin="2"/>
-      <node ref="J1" pin="1"/>
+    <net code="46" name="MOSI">
+      <node ref="J2" pin="5"/>
+      <node ref="OLED_Display1" pin="4"/>
+    </net>
+    <net code="47" name="RES">
+      <node ref="J2" pin="6"/>
+      <node ref="OLED_Display1" pin="5"/>
+    </net>
+    <net code="48" name="DC">
+      <node ref="J2" pin="7"/>
+      <node ref="OLED_Display1" pin="6"/>
+    </net>
+    <net code="49" name="CS">
+      <node ref="J2" pin="8"/>
+      <node ref="OLED_Display1" pin="7"/>
     </net>
   </nets>
 </export>

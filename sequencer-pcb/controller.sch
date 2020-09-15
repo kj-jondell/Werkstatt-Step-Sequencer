@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -16,53 +16,57 @@ $EndDescr
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5F400D68
-P 4300 5900
+P 800 5950
 AR Path="/5F400D68" Ref="TP?"  Part="1" 
 AR Path="/5F3DFCD9/5F400D68" Ref="TP?"  Part="1" 
-F 0 "TP?" H 4358 6018 50  0000 L CNN
-F 1 "TestPoint" H 4358 5927 50  0000 L CNN
-F 2 "" H 4500 5900 50  0001 C CNN
-F 3 "~" H 4500 5900 50  0001 C CNN
-	1    4300 5900
+AR Path="/5F50562B/5F400D68" Ref="TP?"  Part="1" 
+F 0 "TP?" H 858 6068 50  0000 L CNN
+F 1 "TestPoint" H 858 5977 50  0000 L CNN
+F 2 "" H 1000 5950 50  0001 C CNN
+F 3 "~" H 1000 5950 50  0001 C CNN
+	1    800  5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5F400D6E
-P 4850 5900
+P 1350 5950
 AR Path="/5F400D6E" Ref="TP?"  Part="1" 
 AR Path="/5F3DFCD9/5F400D6E" Ref="TP?"  Part="1" 
-F 0 "TP?" H 4908 6018 50  0000 L CNN
-F 1 "TestPoint" H 4908 5927 50  0000 L CNN
-F 2 "" H 5050 5900 50  0001 C CNN
-F 3 "~" H 5050 5900 50  0001 C CNN
-	1    4850 5900
+AR Path="/5F50562B/5F400D6E" Ref="TP?"  Part="1" 
+F 0 "TP?" H 1408 6068 50  0000 L CNN
+F 1 "TestPoint" H 1408 5977 50  0000 L CNN
+F 2 "" H 1550 5950 50  0001 C CNN
+F 3 "~" H 1550 5950 50  0001 C CNN
+	1    1350 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5F400D74
-P 4300 6000
+P 800 6050
 AR Path="/5F400D74" Ref="TP?"  Part="1" 
 AR Path="/5F3DFCD9/5F400D74" Ref="TP?"  Part="1" 
-F 0 "TP?" H 4242 6026 50  0000 R CNN
-F 1 "TestPoint" H 4242 6117 50  0000 R CNN
-F 2 "" H 4500 6000 50  0001 C CNN
-F 3 "~" H 4500 6000 50  0001 C CNN
-	1    4300 6000
+AR Path="/5F50562B/5F400D74" Ref="TP?"  Part="1" 
+F 0 "TP?" H 742 6076 50  0000 R CNN
+F 1 "TestPoint" H 742 6167 50  0000 R CNN
+F 2 "" H 1000 6050 50  0001 C CNN
+F 3 "~" H 1000 6050 50  0001 C CNN
+	1    800  6050
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5F400D7A
-P 4850 6000
+P 1350 6050
 AR Path="/5F400D7A" Ref="TP?"  Part="1" 
 AR Path="/5F3DFCD9/5F400D7A" Ref="TP?"  Part="1" 
-F 0 "TP?" H 4792 6026 50  0000 R CNN
-F 1 "TestPoint" H 4792 6117 50  0000 R CNN
-F 2 "" H 5050 6000 50  0001 C CNN
-F 3 "~" H 5050 6000 50  0001 C CNN
-	1    4850 6000
+AR Path="/5F50562B/5F400D7A" Ref="TP?"  Part="1" 
+F 0 "TP?" H 1292 6076 50  0000 R CNN
+F 1 "TestPoint" H 1292 6167 50  0000 R CNN
+F 2 "" H 1550 6050 50  0001 C CNN
+F 3 "~" H 1550 6050 50  0001 C CNN
+	1    1350 6050
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -71,6 +75,7 @@ U 1 1 5F400D80
 P 7600 2500
 AR Path="/5F400D80" Ref="U?"  Part="1" 
 AR Path="/5F3DFCD9/5F400D80" Ref="U?"  Part="1" 
+AR Path="/5F50562B/5F400D80" Ref="U?"  Part="1" 
 F 0 "U?" H 8144 2546 50  0000 L CNN
 F 1 "4051" H 8144 2455 50  0000 L CNN
 F 2 "" H 7600 2500 50  0001 C CNN
@@ -84,6 +89,7 @@ U 1 1 5F400D86
 P 10200 2650
 AR Path="/5F400D86" Ref="U?"  Part="1" 
 AR Path="/5F3DFCD9/5F400D86" Ref="U?"  Part="1" 
+AR Path="/5F50562B/5F400D86" Ref="U?"  Part="1" 
 F 0 "U?" H 10744 2696 50  0000 L CNN
 F 1 "4051" H 10744 2605 50  0000 L CNN
 F 2 "" H 10200 2650 50  0001 C CNN
@@ -94,14 +100,15 @@ $EndComp
 $Comp
 L Connector:AudioJack2 J?
 U 1 1 5F400D8C
-P 5700 5750
+P 2200 5800
 AR Path="/5F400D8C" Ref="J?"  Part="1" 
 AR Path="/5F3DFCD9/5F400D8C" Ref="J?"  Part="1" 
-F 0 "J?" H 5732 6075 50  0000 C CNN
-F 1 "AudioJack2" H 5732 5984 50  0000 C CNN
-F 2 "" H 5700 5750 50  0001 C CNN
-F 3 "~" H 5700 5750 50  0001 C CNN
-	1    5700 5750
+AR Path="/5F50562B/5F400D8C" Ref="J?"  Part="1" 
+F 0 "J?" H 2232 6125 50  0000 C CNN
+F 1 "AudioJack2" H 2232 6034 50  0000 C CNN
+F 2 "" H 2200 5800 50  0001 C CNN
+F 3 "~" H 2200 5800 50  0001 C CNN
+	1    2200 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -110,6 +117,7 @@ U 1 1 5F400D92
 P 9000 2600
 AR Path="/5F400D92" Ref="U?"  Part="1" 
 AR Path="/5F3DFCD9/5F400D92" Ref="U?"  Part="1" 
+AR Path="/5F50562B/5F400D92" Ref="U?"  Part="1" 
 F 0 "U?" H 9000 3281 50  0000 C CNN
 F 1 "74HC164" H 9000 3190 50  0000 C CNN
 F 2 "" H 9900 2300 50  0001 C CNN
@@ -123,6 +131,7 @@ U 1 1 5F400D98
 P 5850 3700
 AR Path="/5F400D98" Ref="RV?"  Part="1" 
 AR Path="/5F3DFCD9/5F400D98" Ref="RV?"  Part="1" 
+AR Path="/5F50562B/5F400D98" Ref="RV?"  Part="1" 
 F 0 "RV?" V 5643 3700 50  0000 C CNN
 F 1 "R_POT_TRIM" V 5734 3700 50  0000 C CNN
 F 2 "" H 5850 3700 50  0001 C CNN
@@ -131,99 +140,12 @@ F 3 "~" H 5850 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5F400D9E
-P 1150 5250
-AR Path="/5F400D9E" Ref="#PWR?"  Part="1" 
-AR Path="/5F3DFCD9/5F400D9E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1150 5000 50  0001 C CNN
-F 1 "GND" V 1155 5122 50  0000 R CNN
-F 2 "" H 1150 5250 50  0001 C CNN
-F 3 "" H 1150 5250 50  0001 C CNN
-	1    1150 5250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1300 5250 1150 5250
-Wire Wire Line
-	1050 5150 1300 5150
-$Comp
-L power:+5V #PWR?
-U 1 1 5F400DA6
-P 1050 5150
-AR Path="/5F400DA6" Ref="#PWR?"  Part="1" 
-AR Path="/5F3DFCD9/5F400DA6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1050 5000 50  0001 C CNN
-F 1 "+5V" V 1065 5278 50  0000 L CNN
-F 2 "" H 1050 5150 50  0001 C CNN
-F 3 "" H 1050 5150 50  0001 C CNN
-	1    1050 5150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x08_Counter_Clockwise J?
-U 1 1 5F400DAC
-P 1450 4200
-AR Path="/5F400DAC" Ref="J?"  Part="1" 
-AR Path="/5F3DFCD9/5F400DAC" Ref="J?"  Part="1" 
-F 0 "J?" H 1500 4717 50  0000 C CNN
-F 1 "Conn_02x08_Counter_Clockwise" H 1500 4626 50  0000 C CNN
-F 2 "" H 1450 4200 50  0001 C CNN
-F 3 "~" H 1450 4200 50  0001 C CNN
-	1    1450 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x10_Counter_Clockwise J?
-U 1 1 5F400DB2
-P 1500 5550
-AR Path="/5F400DB2" Ref="J?"  Part="1" 
-AR Path="/5F3DFCD9/5F400DB2" Ref="J?"  Part="1" 
-F 0 "J?" H 1550 6167 50  0000 C CNN
-F 1 "Conn_02x10_Counter_Clockwise" H 1550 6076 50  0000 C CNN
-F 2 "" H 1500 5550 50  0001 C CNN
-F 3 "~" H 1500 5550 50  0001 C CNN
-	1    1500 5550
-	1    0    0    -1  
-$EndComp
-Text GLabel 1250 3900 0    50   Input ~ 0
-R1
-Text GLabel 1250 4000 0    50   Input ~ 0
-R2
-Text GLabel 1250 4100 0    50   Input ~ 0
-R3
-Text GLabel 1250 4200 0    50   Input ~ 0
-R4
-Text GLabel 1250 4300 0    50   Input ~ 0
-R5
-Text GLabel 1250 4400 0    50   Input ~ 0
-R6
-Text GLabel 1250 4500 0    50   Input ~ 0
-R7
-Text GLabel 1250 4600 0    50   Input ~ 0
-R8
-Text GLabel 1750 3900 2    50   Input ~ 0
-L1
-Text GLabel 1750 4000 2    50   Input ~ 0
-L2
-Text GLabel 1750 4100 2    50   Input ~ 0
-L3
-Text GLabel 1750 4200 2    50   Input ~ 0
-L4
-Text GLabel 1750 4300 2    50   Input ~ 0
-L5
-Text GLabel 1750 4400 2    50   Input ~ 0
-L6
-Text GLabel 1750 4500 2    50   Input ~ 0
-L7
-Text GLabel 1750 4600 2    50   Input ~ 0
-L8
-$Comp
 L MCU_ST_STM32F4:STM32F401CCUx U?
 U 1 1 5F400DC8
 P 4950 2300
 AR Path="/5F400DC8" Ref="U?"  Part="1" 
 AR Path="/5F3DFCD9/5F400DC8" Ref="U?"  Part="1" 
+AR Path="/5F50562B/5F400DC8" Ref="U?"  Part="1" 
 F 0 "U?" V 4854 3943 50  0000 L CNN
 F 1 "STM32F401CCUx" V 4945 3943 50  0000 L CNN
 F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 4350 800 50  0001 R CNN
@@ -237,8 +159,9 @@ U 1 1 5F400DCE
 P 4650 1050
 AR Path="/5F400DCE" Ref="J?"  Part="1" 
 AR Path="/5F3DFCD9/5F400DCE" Ref="J?"  Part="1" 
+AR Path="/5F50562B/5F400DCE" Ref="J?"  Part="1" 
 F 0 "J?" V 4485 1028 50  0000 C CNN
-F 1 "Conn_01x17_Male" V 4576 1028 50  0000 C CNN
+F 1 "Conn_01x20_Male" V 4576 1028 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical" H 4650 1050 50  0001 C CNN
 F 3 "~" H 4650 1050 50  0001 C CNN
 	1    4650 1050
@@ -250,29 +173,14 @@ U 1 1 5F400DD4
 P 5400 3200
 AR Path="/5F400DD4" Ref="J?"  Part="1" 
 AR Path="/5F3DFCD9/5F400DD4" Ref="J?"  Part="1" 
+AR Path="/5F50562B/5F400DD4" Ref="J?"  Part="1" 
 F 0 "J?" V 5327 3178 50  0000 C CNN
-F 1 "Conn_01x17_Male" V 5236 3178 50  0000 C CNN
+F 1 "Conn_01x20_Male" V 5236 3178 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical" H 5400 3200 50  0001 C CNN
 F 3 "~" H 5400 3200 50  0001 C CNN
 	1    5400 3200
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1300 5350 0    50   Input ~ 0
-B1
-Text GLabel 1300 5450 0    50   Input ~ 0
-B2
-Text GLabel 1300 5550 0    50   Input ~ 0
-B3
-Text GLabel 1300 5650 0    50   Input ~ 0
-B4
-Text GLabel 1300 5750 0    50   Input ~ 0
-B5
-Text GLabel 1300 5850 0    50   Input ~ 0
-B6
-Text GLabel 1300 5950 0    50   Input ~ 0
-B7
-Text GLabel 1300 6050 0    50   Input ~ 0
-B8
 $Comp
 L Device:CP C?
 U 1 1 5F42F42A
@@ -377,40 +285,198 @@ Power regulation\n
 $Comp
 L Connector:AudioJack2 J?
 U 1 1 5F43CFDE
-P 5900 6100
+P 2400 6150
 AR Path="/5F43CFDE" Ref="J?"  Part="1" 
 AR Path="/5F3DFCD9/5F43CFDE" Ref="J?"  Part="1" 
-F 0 "J?" H 5932 6425 50  0000 C CNN
-F 1 "AudioJack2" H 5932 6334 50  0000 C CNN
-F 2 "" H 5900 6100 50  0001 C CNN
-F 3 "~" H 5900 6100 50  0001 C CNN
-	1    5900 6100
+AR Path="/5F50562B/5F43CFDE" Ref="J?"  Part="1" 
+F 0 "J?" H 2432 6475 50  0000 C CNN
+F 1 "AudioJack2" H 2432 6384 50  0000 C CNN
+F 2 "" H 2400 6150 50  0001 C CNN
+F 3 "~" H 2400 6150 50  0001 C CNN
+	1    2400 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:AudioJack2 J?
 U 1 1 5F43D5B1
-P 6300 5850
+P 2800 5900
 AR Path="/5F43D5B1" Ref="J?"  Part="1" 
 AR Path="/5F3DFCD9/5F43D5B1" Ref="J?"  Part="1" 
-F 0 "J?" H 6332 6175 50  0000 C CNN
-F 1 "AudioJack2" H 6332 6084 50  0000 C CNN
-F 2 "" H 6300 5850 50  0001 C CNN
-F 3 "~" H 6300 5850 50  0001 C CNN
-	1    6300 5850
+AR Path="/5F50562B/5F43D5B1" Ref="J?"  Part="1" 
+F 0 "J?" H 2832 6225 50  0000 C CNN
+F 1 "AudioJack2" H 2832 6134 50  0000 C CNN
+F 2 "" H 2800 5900 50  0001 C CNN
+F 3 "~" H 2800 5900 50  0001 C CNN
+	1    2800 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:AudioJack2 J?
 U 1 1 5F43DB9F
-P 6450 6200
+P 2950 6250
 AR Path="/5F43DB9F" Ref="J?"  Part="1" 
 AR Path="/5F3DFCD9/5F43DB9F" Ref="J?"  Part="1" 
-F 0 "J?" H 6482 6525 50  0000 C CNN
-F 1 "AudioJack2" H 6482 6434 50  0000 C CNN
-F 2 "" H 6450 6200 50  0001 C CNN
-F 3 "~" H 6450 6200 50  0001 C CNN
-	1    6450 6200
+AR Path="/5F50562B/5F43DB9F" Ref="J?"  Part="1" 
+F 0 "J?" H 2982 6575 50  0000 C CNN
+F 1 "AudioJack2" H 2982 6484 50  0000 C CNN
+F 2 "" H 2950 6250 50  0001 C CNN
+F 3 "~" H 2950 6250 50  0001 C CNN
+	1    2950 6250
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F50B59F
+P 2500 4350
+AR Path="/5F50B59F" Ref="#PWR?"  Part="1" 
+AR Path="/5F3DFCD9/5F50B59F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2500 4100 50  0001 C CNN
+F 1 "GND" V 2505 4222 50  0000 R CNN
+F 2 "" H 2500 4350 50  0001 C CNN
+F 3 "" H 2500 4350 50  0001 C CNN
+	1    2500 4350
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2650 4350 2500 4350
+Wire Wire Line
+	2500 4550 2650 4550
+$Comp
+L power:+5V #PWR?
+U 1 1 5F50B5A7
+P 2500 4550
+AR Path="/5F50B5A7" Ref="#PWR?"  Part="1" 
+AR Path="/5F3DFCD9/5F50B5A7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2500 4400 50  0001 C CNN
+F 1 "+5V" V 2515 4678 50  0000 L CNN
+F 2 "" H 2500 4550 50  0001 C CNN
+F 3 "" H 2500 4550 50  0001 C CNN
+	1    2500 4550
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x10_Counter_Clockwise J?
+U 1 1 5F50B5AD
+P 1300 4550
+AR Path="/5F50B5AD" Ref="J?"  Part="1" 
+AR Path="/5F3DFCD9/5F50B5AD" Ref="J?"  Part="1" 
+F 0 "J?" H 1350 5067 50  0000 C CNN
+F 1 "Ribbon" H 1350 5150 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 1300 4550 50  0001 C CNN
+F 3 "~" H 1300 4550 50  0001 C CNN
+	1    1300 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x10_Counter_Clockwise J?
+U 1 1 5F50B5B3
+P 2850 4650
+AR Path="/5F50B5B3" Ref="J?"  Part="1" 
+AR Path="/5F3DFCD9/5F50B5B3" Ref="J?"  Part="1" 
+F 0 "J?" H 2900 5267 50  0000 C CNN
+F 1 "Conn_02x10_Counter_Clockwise" H 2900 5176 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 2850 4650 50  0001 C CNN
+F 3 "~" H 2850 4650 50  0001 C CNN
+	1    2850 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 1100 4650 0    50   Input ~ 0
+R3
+Text GLabel 1100 4550 0    50   Input ~ 0
+R4
+Text GLabel 1600 4350 2    50   Input ~ 0
+R7
+Text GLabel 1600 4450 2    50   Input ~ 0
+R8
+Text GLabel 1100 4450 0    50   Input ~ 0
+L3
+Text GLabel 1100 4350 0    50   Input ~ 0
+L4
+Text GLabel 1600 4550 2    50   Input ~ 0
+L7
+Text GLabel 1100 4850 0    50   Input ~ 0
+B3
+Text GLabel 1100 4750 0    50   Input ~ 0
+B4
+Text GLabel 1600 4150 2    50   Input ~ 0
+B7
+Text GLabel 1600 4250 2    50   Input ~ 0
+B8
+Text Notes 1650 4000 0    50   ~ 0
+Ribbon (IDC) connections
+Wire Notes Line
+	650  3800 3600 3800
+Wire Notes Line
+	3600 3800 3600 5250
+Wire Notes Line
+	650  5250 3600 5250
+Wire Notes Line
+	650  5250 650  3800
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F50B5C9
+P 1700 4850
+AR Path="/5F50B5C9" Ref="#PWR?"  Part="1" 
+AR Path="/5F3DFCD9/5F50B5C9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1700 4700 50  0001 C CNN
+F 1 "+3.3V" V 1715 4978 50  0000 L CNN
+F 2 "" H 1700 4850 50  0001 C CNN
+F 3 "" H 1700 4850 50  0001 C CNN
+	1    1700 4850
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1700 4850 1600 4850
+Text GLabel 2650 4450 0    50   Input ~ 0
+CLK
+Text GLabel 2650 4650 0    50   Input ~ 0
+MOSI
+Text GLabel 2650 4750 0    50   Input ~ 0
+RES
+Text GLabel 2650 4850 0    50   Input ~ 0
+DC
+Text GLabel 2650 4950 0    50   Input ~ 0
+CS
+Text GLabel 1100 4250 0    50   Input ~ 0
+SP1
+Text GLabel 1100 4150 0    50   Input ~ 0
+SP2
+Text GLabel 2650 4250 0    50   Input ~ 0
+SP3
+Text GLabel 1600 4750 2    50   Input ~ 0
+SSW2
+Text GLabel 1600 4950 2    50   Input ~ 0
+SSW3
+Text GLabel 1100 4950 0    50   Input ~ 0
+SSW4
+Text GLabel 1600 5050 2    50   Input ~ 0
+SSW5
+Text GLabel 1100 5050 0    50   Input ~ 0
+SSW1
+Text GLabel 1600 4650 2    50   Input ~ 0
+L8
+Text GLabel 3150 4550 2    50   Input ~ 0
+R6
+Text GLabel 3150 4450 2    50   Input ~ 0
+R5
+Text GLabel 3150 4750 2    50   Input ~ 0
+L6
+Text GLabel 3150 4650 2    50   Input ~ 0
+L5
+Text GLabel 3150 4350 2    50   Input ~ 0
+B6
+Text GLabel 3150 4250 2    50   Input ~ 0
+B5
+Text GLabel 2650 5150 0    50   Input ~ 0
+L1
+Text GLabel 2650 5050 0    50   Input ~ 0
+L2
+Text GLabel 3150 4950 2    50   Input ~ 0
+B2
+Text GLabel 3150 4850 2    50   Input ~ 0
+B1
+Text GLabel 3150 5150 2    50   Input ~ 0
+R2
+Text GLabel 3150 5050 2    50   Input ~ 0
+R1
 $EndSCHEMATC
