@@ -11,7 +11,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -86,7 +86,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "expander_test/"))
+      (outputdirectory "expander_v2/"))
   )
 
   (net 0 "")
@@ -809,7 +809,7 @@
   (segment (start 136.912 82.804) (end 140.8 78.916) (width 0.25) (layer B.Cu) (net 14))
   (segment (start 135.812 82.804) (end 136.912 82.804) (width 0.25) (layer B.Cu) (net 14))
 
-  (zone (net 1) (net_name GND_D) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND_D) (layer F.Cu) (tstamp 5F637583) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1294,7 +1294,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND_D) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND_D) (layer B.Cu) (tstamp 5F637580) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
