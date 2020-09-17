@@ -1478,7 +1478,7 @@ U 1 1 5F616768
 P 4050 6300
 F 0 "SW9" H 4050 6667 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 4050 6576 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 3900 6460 50  0001 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm" H 3900 6460 50  0001 C CNN
 F 3 "~" H 4050 6560 50  0001 C CNN
 	1    4050 6300
 	1    0    0    -1  

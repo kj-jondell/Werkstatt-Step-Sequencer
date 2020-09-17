@@ -27,7 +27,7 @@ F 3 "~" H 5850 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack3-mono J2
+L cv_expander-rescue:AudioJack3-mono-Connector J2
 U 1 1 5F45E3E2
 P 7250 2050
 AR Path="/5F45E3E2" Ref="J2"  Part="1" 
@@ -40,7 +40,7 @@ F 3 "~" H 7250 2050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:AudioJack3-mono J3
+L cv_expander-rescue:AudioJack3-mono-Connector J3
 U 1 1 5F45E3E8
 P 8100 2300
 AR Path="/5F45E3E8" Ref="J3"  Part="1" 
@@ -143,7 +143,7 @@ GND_D
 Wire Wire Line
 	6700 2800 6700 2850
 $Comp
-L Connector:AudioJack3-mono J5
+L cv_expander-rescue:AudioJack3-mono-Connector J5
 U 1 1 5F45E3F4
 P 8300 2750
 AR Path="/5F45E3F4" Ref="J5"  Part="1" 
@@ -156,7 +156,7 @@ F 3 "~" H 8300 2750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:AudioJack3-mono J8
+L cv_expander-rescue:AudioJack3-mono-Connector J8
 U 1 1 5F45E406
 P 7250 3550
 AR Path="/5F45E406" Ref="J8"  Part="1" 
@@ -169,7 +169,7 @@ F 3 "~" H 7250 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:AudioJack3-mono J9
+L cv_expander-rescue:AudioJack3-mono-Connector J9
 U 1 1 5F45E40C
 P 8350 3650
 AR Path="/5F45E40C" Ref="J9"  Part="1" 
@@ -182,7 +182,7 @@ F 3 "~" H 8350 3650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:AudioJack3-mono J11
+L cv_expander-rescue:AudioJack3-mono-Connector J11
 U 1 1 5F45E418
 P 8350 4150
 AR Path="/5F45E418" Ref="J11"  Part="1" 
@@ -195,7 +195,7 @@ F 3 "~" H 8350 4150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:AudioJack3-mono J12
+L cv_expander-rescue:AudioJack3-mono-Connector J12
 U 1 1 5F45E41E
 P 7250 4500
 AR Path="/5F45E41E" Ref="J12"  Part="1" 
@@ -208,7 +208,7 @@ F 3 "~" H 7250 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:AudioJack3-mono J13
+L cv_expander-rescue:AudioJack3-mono-Connector J13
 U 1 1 5F45E424
 P 8350 4650
 AR Path="/5F45E424" Ref="J13"  Part="1" 
@@ -237,7 +237,7 @@ GND_D
 Text GLabel 8150 4750 0    50   Input ~ 0
 GND_D
 $Comp
-L Connector:AudioJack3-mono J14
+L cv_expander-rescue:AudioJack3-mono-Connector J14
 U 1 1 5F48864B
 P 7250 5000
 AR Path="/5F48864B" Ref="J14"  Part="1" 
@@ -254,7 +254,7 @@ GND_D
 Text GLabel 7050 2750 0    50   Input ~ 0
 GND_D
 $Comp
-L Connector:AudioJack3-mono J10
+L cv_expander-rescue:AudioJack3-mono-Connector J10
 U 1 1 5F45E412
 P 7250 4000
 AR Path="/5F45E412" Ref="J10"  Part="1" 
@@ -267,7 +267,7 @@ F 3 "~" H 7250 4000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:AudioJack3-mono J6
+L cv_expander-rescue:AudioJack3-mono-Connector J6
 U 1 1 5F449E33
 P 7250 3100
 AR Path="/5F449E33" Ref="J6"  Part="1" 
@@ -332,7 +332,7 @@ $EndComp
 Text GLabel 5800 1500 3    50   Input ~ 0
 GND_D
 $Comp
-L Connector:AudioJack3-mono J7
+L cv_expander-rescue:AudioJack3-mono-Connector J7
 U 1 1 5F45E400
 P 8350 3200
 AR Path="/5F45E400" Ref="J7"  Part="1" 
@@ -385,7 +385,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 4900 6250 4350
 $Comp
-L Connector:AudioJack3-mono J4
+L cv_expander-rescue:AudioJack3-mono-Connector J4
 U 1 1 5F45E3EE
 P 7250 2650
 AR Path="/5F45E3EE" Ref="J4"  Part="1" 

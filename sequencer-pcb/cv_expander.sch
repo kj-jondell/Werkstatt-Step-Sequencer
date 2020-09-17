@@ -397,4 +397,19 @@ F 3 "~" H 7250 2650 50  0001 C CNN
 	1    7250 2650
 	-1   0    0    1   
 $EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5F61DC1E
+P 4900 2600
+AR Path="/5F61DC1E" Ref="H2"  Part="1" 
+AR Path="/5F450078/5F61DC1E" Ref="H?"  Part="1" 
+F 0 "H2" V 4900 2750 50  0000 L CNN
+F 1 "MountingHole_GND" V 4800 2550 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 4900 2600 50  0001 C CNN
+F 3 "~" H 4900 2600 50  0001 C CNN
+	1    4900 2600
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5000 2600 2    50   Input ~ 0
+GND_D
 $EndSCHEMATC
